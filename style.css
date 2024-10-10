@@ -132,7 +132,7 @@ header .search .search-glass{
 
 /* ====== hero section styling ====== */
 #hero-section{
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/hero-image.jpg");
+background-image: linear-gradient(rgba(33, 205, 191, 0.198), rgba(33, 205, 191, 0.232)), url("images/hero-image.jpg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -186,8 +186,13 @@ transition: all 0.2s;
   background-color: var(--second-main-color);
   padding: 1rem 2rem;
   font-size: 1.5rem;
+  transition: all 0.2s;
 }
 
 #hero-section .nav-wrapper .btn.apm-btn i{
   margin-right: 0.8rem;
+}
+
+#hero-section .nav-wrapper .btn.apm-btn:hover{
+  background-color: var(--main-color);
 }
