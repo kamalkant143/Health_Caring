@@ -131,6 +131,13 @@ header .search .search-glass{
 }
 
 /* ====== hero section styling ====== */
+#hero-section{
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/hero-image.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
 
 #hero-section .nav-wrapper{
   display: flex;
@@ -156,6 +163,7 @@ header .search .search-glass{
 
 #hero-section .nav-wrapper .logo-hero h2 span{
   color: #03C99D;
+  
 }
 
 #hero-section .nav-wrapper .nav-bar-list {
