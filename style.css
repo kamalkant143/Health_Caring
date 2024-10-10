@@ -28,13 +28,13 @@ a{
 
  /* ==== btn styling ==== */
 .btn{
-    background-color: var(--main-color);
+    /* background-color: var(--main-color); */
     color: var(--font-color-2);
-    font-size:1.7rem ;
+    /* font-size:1.7rem ; */
     font-weight: 500;
     text-transform: capitalize;
     border: none;
-    padding:1.8rem 2.3rem ;
+    /* padding:1.8rem 2.3rem ; */
     border-radius:50rem;
     cursor: pointer;
     transition: all 0.2s linear;
@@ -48,7 +48,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 5rem;
+  padding: 1.5rem 10rem;
   background-color: var(--main-color);
 }
 
@@ -66,7 +66,7 @@ header .contact-header{
 
 header .contact-header a{
   
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: var(--font-color-2);
   cursor: default;
 }
@@ -128,4 +128,58 @@ header .search .search-glass{
   font-size: 1.8rem;
   color: var(--font-color-2);
   cursor: pointer;
+}
+
+/* ====== hero section styling ====== */
+
+#hero-section .nav-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.8rem 10rem;
+}
+
+#hero-section .nav-wrapper .logo-hero{
+  display: flex;
+  align-items: center;
+}
+
+#hero-section .nav-wrapper .logo-hero img{
+  width: 8rem;
+}
+
+#hero-section .nav-wrapper .logo-hero h2{
+  font-size: 1.8rem;
+  margin-left: 1rem;
+  color: #8686E6;
+}
+
+#hero-section .nav-wrapper .logo-hero h2 span{
+  color: #03C99D;
+}
+
+#hero-section .nav-wrapper .nav-bar-list {
+  display: flex;
+  gap: 3rem;
+}
+
+#hero-section .nav-wrapper .nav-bar-list a{
+  color: var(--font-color);
+  font-size: 1.6rem;
+  font-weight: 600;
+transition: all 0.2s;
+}
+
+#hero-section .nav-wrapper .nav-bar-list a:hover{
+  color: var(--second-main-color);
+}
+
+#hero-section .nav-wrapper .btn.apm-btn{
+  background-color: var(--second-main-color);
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+}
+
+#hero-section .nav-wrapper .btn.apm-btn i{
+  margin-right: 0.8rem;
 }
