@@ -41,4 +41,56 @@ a{
 }
 
 
+/* ===== header styling ===== */
 
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 8rem;
+  background-color: var(--main-color);
+}
+
+header .contact-header p{
+  background-color: var(--background-color);
+  font-size: 1.3rem; 
+}
+
+header .contact-header{
+  display: flex;
+  gap: 2rem;
+}
+
+header .contact-header a{
+  font-size: 1.4rem;
+  color: var(--font-color-2);
+}
+header .contact-header a i{
+  color:var(--font-color-3)
+}
+
+header .social-search{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+header .social-search .follow {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+header .social-search .follow a{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: var(--second-main-color);
+  border-radius: 50rem;
+  padding: 0.5rem;
+}
+ 
+header .social-search .follow i{
+  font-size: 1.4rem;
+  color: var(--main-color);
+}
