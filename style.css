@@ -133,7 +133,8 @@ header .search .search-glass {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: auto;
+  padding-bottom: 10rem;
 }
 
 #hero-section .nav-wrapper {
@@ -193,18 +194,18 @@ header .search .search-glass {
   background-color: var(--main-color);
 }
 
-/* ====== hero section styling ====== */
+/* ====== home  styling ====== */
 
 #hero-section .main-hero-container {
   width: 50%;
   display: flex;
   justify-content: start;
   align-items: center;
-  margin: 6rem;
+  margin: 2rem 6rem;
 }
 
 #hero-section .main-hero-container .hero-wrapper {
-  padding: 4rem;
+  padding:  4rem;
 }
 
 #hero-section .main-hero-container .hero-wrapper h1 {
@@ -217,4 +218,38 @@ header .search .search-glass {
   font-size: 1.8rem;
   font-weight: 600;
   color: var(--main-color);
+}
+
+
+/* ====== helath icon styling ====== */
+#hero-section .health-icon{
+  width: 50%;
+  display: flex;
+  /* justify-content: start; */
+  gap: 5rem;
+  margin-left: 10rem;
+}
+
+#hero-section .health-icon .icon {
+  text-align: center;
+}
+
+#hero-section .health-icon .icon .images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50rem;
+  width: 8rem;
+  height: 8rem;
+  background-color: #a1dee5;
+}
+
+#hero-section .health-icon .icon .images img{
+  width: 6rem;
+}
+
+#hero-section .health-icon .icon h2{
+  padding-top: 1.3rem;
+   font-size: 1.3rem;
+   color: var(--main-color);
 }
