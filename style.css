@@ -328,10 +328,26 @@ header .search .search-glass {
   font-size: 2.2rem;
   font-weight: 500;
   color: var(--font-color-2);
+  cursor: pointer;
 }
 
 #hero-section .all-contact-box .container .right-box h3 i {
   margin-right: 0.5rem;
+  background-color:#1EBAAE ;
+  padding: 0.8rem;
+  border-radius: 50rem;
+}
+
+#hero-section .all-contact-box .container .right-box h3 i:hover{
+  color: var(--font-color-3);
+}
+
+#hero-section .all-contact-box .container .right-box .time-table{
+  border-bottom: 1px solid var(--font-color-2);
+}
+
+#hero-section .all-contact-box .container .right-box .time-table p span{
+  margin-left: 3rem;
 }
 
 #hero-section .btn.time-btn{
@@ -339,6 +355,12 @@ header .search .search-glass {
   color: var(--font-color-2);
   border: 1px solid var(--font-color-2);
   padding: 1rem 2rem;
+  font-weight: 600;
+}
+
+#hero-section .btn.time-btn:hover{
+  background-color: var(--background-color);
+  color: var(--font-color);
 }
 
 #hero-section .btn.time-btn i{
