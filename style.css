@@ -15,36 +15,33 @@
   --background-color: #ffffff;
 }
 
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
-a{
-    text-decoration: none;
-}
-
-
- /* ==== btn styling ==== */
-.btn{
-    /* background-color: var(--main-color); */
-    color: var(--font-color-2);
-    /* font-size:1.7rem ; */
-    font-weight: 500;
-    text-transform: capitalize;
-    border: none;
-    /* padding:1.8rem 2.3rem ; */
-    border-radius:50rem;
-    cursor: pointer;
-    transition: all 0.2s linear;
+a {
+  text-decoration: none;
 }
 
+/* ==== btn styling ==== */
+.btn {
+  /* background-color: var(--main-color); */
+  color: var(--font-color-2);
+  /* font-size:1.7rem ; */
+  font-weight: 500;
+  text-transform: capitalize;
+  border: none;
+  /* padding:1.8rem 2.3rem ; */
+  border-radius: 50rem;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
 
 /* ===== header styling ===== */
 
-
-header{
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,36 +49,35 @@ header{
   background-color: var(--main-color);
 }
 
-header .contact-header p{
+header .contact-header p {
   background-color: var(--background-color);
-  font-size: 1.3rem; 
+  font-size: 1.3rem;
   padding: 0rem 1.5rem;
   border-radius: 1rem;
 }
 
-header .contact-header{
+header .contact-header {
   display: flex;
   gap: 2rem;
 }
 
-header .contact-header a{
-  
+header .contact-header a {
   font-size: 1.2rem;
   color: var(--font-color-2);
   cursor: default;
 }
 
-header .contact-header a:hover span{
- color: var(--second-main-color);
- cursor: pointer;
+header .contact-header a:hover span {
+  color: var(--second-main-color);
+  cursor: pointer;
 }
 
-header .contact-header a i{
+header .contact-header a i {
   margin-right: 0.8rem;
-  color:var(--font-color-3)
+  color: var(--font-color-3);
 }
 
-header .social-search{
+header .social-search {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -91,27 +87,26 @@ header .social-search .follow {
   display: flex;
   align-items: center;
   gap: 1rem;
-
 }
-header .social-search .follow a{
+header .social-search .follow a {
   display: flex;
   align-items: center;
   background-color: var(--second-main-color);
   border-radius: 50rem;
   padding: 0.5rem;
-  transition: all 0.2s ;
+  transition: all 0.2s;
 }
- 
-header .social-search .follow a:hover{
+
+header .social-search .follow a:hover {
   transform: translateY(-0.3rem);
 }
-header .social-search .follow i{
+header .social-search .follow i {
   font-size: 1.4rem;
   color: var(--main-color);
   cursor: pointer;
 }
 
-header .search input{
+header .search input {
   background-color: var(--main-color);
   border: none;
   font-size: 1.5rem;
@@ -120,50 +115,51 @@ header .search input{
   border-left: 1px solid var(--font-color-2);
 }
 
-header .search input:focus{
+header .search input:focus {
   outline: none;
 }
 
-header .search .search-glass{
+header .search .search-glass {
   font-size: 1.8rem;
   color: var(--font-color-2);
   cursor: pointer;
 }
 
 /* ====== hero section styling ====== */
-#hero-section{
-background-image: url("images/hero-image.jpg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-height: 100vh;
+
+/* ======  nav bar styling ====== */
+#hero-section {
+  background-image: url("images/hero-section-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
-#hero-section .nav-wrapper{
+#hero-section .nav-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.8rem 10rem;
 }
 
-#hero-section .nav-wrapper .logo-hero{
+#hero-section .nav-wrapper .logo-hero {
   display: flex;
   align-items: center;
 }
 
-#hero-section .nav-wrapper .logo-hero img{
+#hero-section .nav-wrapper .logo-hero img {
   width: 8rem;
 }
 
-#hero-section .nav-wrapper .logo-hero h2{
+#hero-section .nav-wrapper .logo-hero h2 {
   font-size: 1.8rem;
   margin-left: 1rem;
-  color: #8686E6;
+  color: #8686e6;
 }
 
-#hero-section .nav-wrapper .logo-hero h2 span{
-  color: #03C99D;
-  
+#hero-section .nav-wrapper .logo-hero h2 span {
+  color: #03c99d;
 }
 
 #hero-section .nav-wrapper .nav-bar-list {
@@ -171,28 +167,56 @@ height: 100vh;
   gap: 3rem;
 }
 
-#hero-section .nav-wrapper .nav-bar-list a{
+#hero-section .nav-wrapper .nav-bar-list a {
   color: var(--font-color);
   font-size: 1.6rem;
   font-weight: 600;
-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
-#hero-section .nav-wrapper .nav-bar-list a:hover{
+#hero-section .nav-wrapper .nav-bar-list a:hover {
   color: var(--second-main-color);
 }
 
-#hero-section .nav-wrapper .btn.apm-btn{
+#hero-section .nav-wrapper .btn.apm-btn {
   background-color: var(--second-main-color);
   padding: 1rem 2rem;
   font-size: 1.5rem;
   transition: all 0.3s linear;
 }
 
-#hero-section .nav-wrapper .btn.apm-btn i{
+#hero-section .nav-wrapper .btn.apm-btn i {
   margin-right: 0.8rem;
 }
 
-#hero-section .nav-wrapper .btn.apm-btn:hover{
+#hero-section .nav-wrapper .btn.apm-btn:hover {
   background-color: var(--main-color);
+}
+
+/* ====== hero section styling ====== */
+
+#hero-section .main-hero-container {
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: aqua;
+  margin: 6rem;
+}
+
+#hero-section .main-hero-container .hero-wrapper {
+  padding: 4rem;
+  background-color: white;
+}
+
+#hero-section .main-hero-container .hero-wrapper h1 {
+  font-size: 7rem;
+  font-weight: 700;
+  color: var(--font-color);
+}
+
+#hero-section .main-hero-container .hero-wrapper p {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--main-color);
 }
