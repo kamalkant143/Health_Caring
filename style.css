@@ -200,13 +200,11 @@ header .search .search-glass {
   display: flex;
   justify-content: start;
   align-items: center;
-  background-color: aqua;
   margin: 6rem;
 }
 
 #hero-section .main-hero-container .hero-wrapper {
   padding: 4rem;
-  background-color: white;
 }
 
 #hero-section .main-hero-container .hero-wrapper h1 {
