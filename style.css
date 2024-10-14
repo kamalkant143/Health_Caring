@@ -266,3 +266,52 @@ header .search .search-glass {
 #hero-section .health-icon .icon h2:hover {
   color: var(--font-color-3);
 }
+
+/* ====== All contact box styling ====== */
+
+#hero-section .all-contact-box{
+  display: flex;
+}
+
+#hero-section .all-contact-box .container{
+  width: 40rem;
+  background-color: #21CDC0;
+  display: flex;
+  padding: 4rem;
+
+}
+
+
+#hero-section .all-contact-box .container .left-box i{
+  font-size: 5rem;
+  color: var(--font-color-2);
+}
+
+#hero-section .all-contact-box .container .right-box{
+  margin-left: 3rem;
+}
+
+#hero-section .all-contact-box .container .right-box h2{
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--font-color-2);
+
+
+}
+
+#hero-section .all-contact-box .container .right-box p{
+  padding-block: 1.3rem;
+  font-size: 1.5rem;
+  color: var(--font-color-2);
+
+}
+#hero-section .all-contact-box .container .right-box h3{
+  font-size: 2.2rem;
+ font-weight:500 ;
+ color: var(--font-color-2);
+
+}
+
+#hero-section .all-contact-box .container .right-box h3 i{
+  margin-right: 0.5rem;
+}
