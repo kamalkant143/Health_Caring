@@ -224,7 +224,7 @@ header .search .search-glass {
 #hero-section .health-icon {
   width: 50%;
   display: flex;
-  gap: 5rem;
+  gap: 4rem;
   margin-left: 10rem;
   cursor: pointer;
 }
@@ -241,6 +241,11 @@ header .search .search-glass {
   width: 8rem;
   height: 8rem;
   background-color: #a1dee5;
+  transition: all 0.3s ease;
+}
+#hero-section .health-icon .icon .images:hover{
+  transform: translateY(-1rem);
+  border: 1px solid #4d4b4b;
 }
 
 #hero-section .health-icon .icon .images.img1 {
