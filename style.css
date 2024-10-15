@@ -376,7 +376,7 @@ header .search .search-glass {
 
 #about-section .about-wrapp{
   margin-top: 30rem;
-  padding-inline: 20rem;
+  padding-inline: 18rem;
 }
 
 #about-section .about-wrapp h2{
@@ -388,6 +388,7 @@ header .search .search-glass {
 
 #about-section .about-wrapp .about-hospital{
   margin-top: 5rem;
+  display: flex;
 }
 
 #about-section .about-wrapp .about-hospital .left-about{
@@ -408,4 +409,13 @@ header .search .search-glass {
   color: var(--font-color);
   font-size:1.5rem ;
   font-weight: 500;
+}
+
+#about-section .about-wrapp .about-hospital .right-about{
+  width: 60%;
+}
+
+#about-section .about-wrapp .about-hospital .right-about p{
+  font-size: 1.5rem;
+  color: var(--main-color);
 }
