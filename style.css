@@ -366,3 +366,21 @@ header .search .search-glass {
 #hero-section .btn.time-btn i{
   margin-left: 0.5rem;
 }
+
+
+/* ====== about section styling ====== */
+
+#about-section{
+  background-color: var(--background-color);
+}
+
+#about-section .about-wrapp{
+  margin-top: 30rem;
+  padding-inline: 15rem;
+}
+
+#about-section .about-wrapp h2{
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--font-color);
+}
