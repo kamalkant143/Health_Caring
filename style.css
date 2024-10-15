@@ -415,6 +415,7 @@ header .search .search-glass {
   background-color: var(--font-color);
   color: var(--font-color-2);
   padding: 1.8rem 2.5rem;
+  margin-top: 3rem;
 
 }
 
@@ -428,5 +429,42 @@ header .search .search-glass {
 
 #about-section .about-wrapp .about-hospital .right-about p{
   font-size: 1.5rem;
+  color: var(--main-color);
+}
+
+#about-section .bottom-about-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6rem;
+  
+}
+
+#about-section .bottom-about-container .about-img {
+  width:40%;
+}
+
+#about-section .bottom-about-container .about-img img{
+  width: 100%;
+}
+
+
+#about-section .bottom-about-container .bottom-inner-box{
+  width: 50%;
+}
+
+#about-section .bottom-about-container .bottom-inner-box .about-doctor{
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+#about-section .bottom-about-container .bottom-inner-box .about-doctor i{
+  color: var(--second-main-color);
+  font-size: 2rem;
+}
+
+#about-section .bottom-about-container .bottom-inner-box .about-doctor p{
+  font-size: 1.5rem;
+  font-weight: 500;
   color: var(--main-color);
 }
