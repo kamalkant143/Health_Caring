@@ -376,11 +376,36 @@ header .search .search-glass {
 
 #about-section .about-wrapp{
   margin-top: 30rem;
-  padding-inline: 15rem;
+  padding-inline: 20rem;
 }
 
 #about-section .about-wrapp h2{
-  font-size: 3rem;
+  padding-left: 10rem;
+  font-size: 3.5rem;
   font-weight: 600;
   color: var(--font-color);
+}
+
+#about-section .about-wrapp .about-hospital{
+  margin-top: 5rem;
+}
+
+#about-section .about-wrapp .about-hospital .left-about{
+  display: flex;
+  width: 40%;
+}
+
+#about-section .about-wrapp .about-hospital .left-about i{
+  font-size: 5rem;
+  color: var(--second-main-color);
+}
+
+#about-section .about-wrapp .about-hospital .left-about .box1{
+  padding-inline: 5rem;
+}
+
+#about-section .about-wrapp .about-hospital .left-about .box1 p{
+  color: var(--font-color);
+  font-size:1.5rem ;
+  font-weight: 500;
 }
