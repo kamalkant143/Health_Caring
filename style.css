@@ -493,3 +493,46 @@ background-color: var(--second-main-color);
   color: var(--font-color);
   margin-top: 2rem;
 }
+
+#about-section .about-medical-care .medical-care-container {
+  display: flex;
+  padding: 5rem 15rem;
+} 
+
+#about-section .about-medical-care .medical-care-container .care-box{
+  background-color: var(--background-color);
+  width: 40rem;
+  padding: 3rem 5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 1rem;
+}
+
+#about-section .about-medical-care .medical-care-container .care-box .fa-heart-pulse{
+  font-size: 8rem;
+  color: var(--font-color);
+}
+
+#about-section .about-medical-care .medical-care-container .care-box h3{
+  font-size: 2.5rem;
+  color: var(--font-color);
+  text-transform: capitalize;
+  margin-block: 1.8rem;
+
+}
+
+#about-section .about-medical-care .medical-care-container .care-box p{
+  font-size: 1.4rem;
+  color: var(--main-color);
+  line-height: 1.8;
+}
+
+#about-section .about-medical-care .medical-care-container .care-box .care-opsen{
+  display: flex;
+  align-items: center;
+  margin-block: 2rem;
+}
+
+#about-section .about-medical-care .medical-care-container .care-box .care-opsen h5{
+font-size: 1.5rem;
+margin-left: 1.2rem;
+}
