@@ -416,7 +416,11 @@ header .search .search-glass {
   color: var(--font-color-2);
   padding: 1.8rem 2.5rem;
   margin-top: 3rem;
+transition: all 0.3s ease;
+}
 
+#about-section .about-wrapp .about-hospital .left-about .box1 .btn.about-btn:hover{
+background-color: var(--second-main-color);
 }
 
 #about-section .about-wrapp .about-hospital .left-about .box1 .btn.about-btn i{
@@ -468,4 +472,24 @@ header .search .search-glass {
   font-size: 1.5rem;
   font-weight: 500;
   color: var(--main-color);
+}
+
+
+#about-section .about-medical-care {
+  padding-top: 10rem;
+  background-color: #E7F6F5;
+}
+
+#about-section .about-medical-care h4{
+  text-align: center;
+  font-size: 1.7rem;
+  color: var(--main-color);
+}
+
+#about-section .about-medical-care h2{
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: var(--font-color);
+  margin-top: 2rem;
 }
