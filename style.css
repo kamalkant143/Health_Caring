@@ -517,11 +517,17 @@ background-color: var(--second-main-color);
   color: var(--font-color);
   text-transform: capitalize;
   margin-block: 1.8rem;
+ transition: all 0.3s ease;
+}
 
+#about-section .about-medical-care .medical-care-container .care-box h3:hover{
+  color: var(--second-main-color);
+  cursor: pointer;
 }
 
 #about-section .about-medical-care .medical-care-container .care-box p{
   font-size: 1.4rem;
+  font-weight: 500;
   color: var(--main-color);
   line-height: 1.8;
 }
@@ -535,4 +541,31 @@ background-color: var(--second-main-color);
 #about-section .about-medical-care .medical-care-container .care-box .care-opsen h5{
 font-size: 1.5rem;
 margin-left: 1.2rem;
+color: var(--main-color);
+}
+
+#about-section .about-medical-care .medical-care-container .care-box .care-opsen .fa-check {
+  color: var(--second-main-color);
+  font-size: 2rem;
+}
+
+#about-section .about-medical-care .medical-care-container .care-box .medical-btn{
+  border: 1px solid var(--font-color);
+  color: var(--font-color);
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+  margin-block: 2rem;
+}
+
+#about-section .about-medical-care .medical-care-container .care-box .medical-btn:hover{
+  background-color: var(--second-main-color);
+  border: 1px solid var(--second-main-color);
+  color: var(--font-color-2);
+}
+
+#about-section .about-medical-care .medical-care-container .care-box .row{
+  width: 20rem;
+  height: 0.4rem;
+  background-color: var(--font-color);
 }
