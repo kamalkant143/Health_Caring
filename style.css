@@ -506,7 +506,7 @@ background-color: var(--second-main-color);
   width: 100%;
   display: flex;
   justify-content: space-between;
-  gap: 6rem;
+  gap: 5rem;
   overflow: hidden;
   
 }
@@ -595,3 +595,21 @@ color: var(--main-color);
   background-color: var(--second-main-color);
 }
 
+#about-section .about-medical-care .medical-care-container .slider-box{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#about-section .about-medical-care .medical-care-container .slider-box div{
+   width: 1rem;
+   height: 1rem;
+   border-radius: 50rem;
+   background-color: var(--font-color);
+}
+
+#about-section .about-medical-care .medical-care-container .slider-box div:active{
+  background-color: var(--second-main-color);
+
+}
