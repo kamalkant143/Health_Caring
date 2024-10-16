@@ -177,7 +177,7 @@ header .search .search-glass {
 }
 
 #hero-section .nav-wrapper .nav-bar-list a:hover {
-  color: var(--second-main-color);
+  color: var(--main-color);
 }
 
 #hero-section .nav-wrapper .btn.apm-btn {
@@ -456,6 +456,7 @@ header .search .search-glass {
   display: flex;
   align-items: center;
   gap: 3rem;
+  margin-bottom: 2rem;
 }
 
 #about-section .bottom-about-container .bottom-inner-box .about-doctor i{
