@@ -478,6 +478,7 @@ background-color: var(--second-main-color);
 #about-section .about-medical-care {
   padding-top: 10rem;
   background-color: #E7F6F5;
+
 }
 
 #about-section .about-medical-care h4{
@@ -495,9 +496,20 @@ background-color: var(--second-main-color);
 }
 
 #about-section .about-medical-care .medical-care-container {
-  display: flex;
-  padding: 5rem 15rem;
+  width: 100%;
+ 
+  padding: 5rem 10rem;
+
 } 
+
+#about-section .about-medical-care .medical-care-container .all-box-cover{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 6rem;
+  overflow: hidden;
+  
+}
 
 #about-section .about-medical-care .medical-care-container .care-box{
   background-color: var(--background-color);
@@ -505,15 +517,19 @@ background-color: var(--second-main-color);
   padding: 3rem 5rem 0 5rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 1rem;
+ 
 }
 
 
 #about-section .about-medical-care .medical-care-container .care-box .fa-heart-pulse{
   font-size: 8.5rem;
   color: var(--font-color);
+  transition: all 0.3s ease;
 }
 
-#about-section .about-medical-care .medical-care-container .care-box:hover
+#about-section .about-medical-care .medical-care-container .care-box:hover .fa-heart-pulse{
+  transform: rotateY(360deg);
+}
 
 #about-section .about-medical-care .medical-care-container .care-box h3{
   font-size: 2.5rem;
