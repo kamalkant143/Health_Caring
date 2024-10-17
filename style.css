@@ -616,3 +616,27 @@ color: var(--main-color);
   background-color: var(--second-main-color);
 
 }
+
+#about-section .about-reviews-container{
+  /* margin-top: 3rem; */
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 15rem 3rem 15rem;
+  border-top: 1px solid var(--font-color-3);
+}
+
+#about-section .about-reviews-container h3{
+  font-size: 1.3rem;
+  color: var(--font-color-3);
+}
+
+
+#about-section .about-reviews-container h3 .file-i {
+  color: var(--second-main-color);
+}
+
+#about-section .about-reviews-container h3 a{
+  color: var(--font-color);
+}
+
+#about-section .about-reviews-container
