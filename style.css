@@ -530,7 +530,7 @@ background-color: var(--second-main-color);
   transition: all 0.3s ease;
 }
 
-#about-section .about-medical-care .medical-care-container .all-box-cover .care-box:hover .fa-heart-pulse{
+#about-section .about-medical-care .medical-care-container .all-box-cover .care-box:hover .care-icon{
   transform: rotateY(360deg);
 }
 
@@ -577,7 +577,6 @@ color: var(--main-color);
   padding: 1rem 2rem;
   font-size: 1.5rem;
   transition: all 0.3s ease;
-  /* margin-block: 2rem; */
 }
 
 #about-section .about-medical-care .medical-care-container .care-box .medical-btn:hover{
