@@ -628,6 +628,7 @@ color: var(--main-color);
 #about-section .about-reviews-container h3{
   font-size: 1.3rem;
   color: var(--font-color-3);
+  
 }
 
 
@@ -639,4 +640,39 @@ color: var(--main-color);
   color: var(--font-color);
 }
 
-#about-section .about-reviews-container
+#about-section .about-reviews-container .about-rate-box{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+#about-section .about-reviews-container .about-rate-box h2{
+  font-size: 3rem;
+  color: var(--main-color);
+}
+
+
+
+#about-section .about-reviews-container .about-rate-box .rate-inner-box strong{
+  text-decoration: underline;
+  font-size: 1.5rem;
+  color: var(--main-color);
+}
+
+
+#about-section .about-reviews-container .about-rate-box .rate-inner-box span{
+  font-size: 1.2rem;
+  color: var(--font-color-3);
+}
+
+#about-section .about-reviews-container .about-rate-box  .btn.rate-btn{
+  background-color: var(--second-main-color);
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 1.3rem 2.5rem;
+  transition: all 0.3s ease;
+}
+
+#about-section .about-reviews-container .about-rate-box  .btn.rate-btn:hover{
+  background-color: var(--font-color);
+}
