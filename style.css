@@ -524,7 +524,7 @@ background-color: var(--second-main-color);
 }
 
 
-#about-section .about-medical-care .medical-care-container .all-box-cover .care-box .fa-heart-pulse{
+#about-section .about-medical-care .medical-care-container .all-box-cover .care-box .care-icon{
   font-size: 8.5rem;
   color: var(--font-color);
   transition: all 0.3s ease;
@@ -610,6 +610,7 @@ color: var(--main-color);
    height: 1rem;
    border-radius: 50rem;
    background-color: var(--font-color);
+   cursor: pointer;
 }
 
 #about-section .about-medical-care .medical-care-container .slider-box .button:active{
