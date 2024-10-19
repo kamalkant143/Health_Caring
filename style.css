@@ -778,3 +778,31 @@ header .search .search-glass {
   font-size: 1.5rem;
   color: var(--font-color-2);
 }
+
+#about-section .services-container  {
+  background-color: var(--second-main-color);
+  padding: 5rem 15rem;
+}
+
+#about-section .services-container .srv-box{
+  width: 25rem;
+  background-color:var(--background-color);
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+#about-section .services-container .srv-box img{
+  width: 100%;
+  display: none;
+}
+
+#about-section .services-container .srv-box i{
+  font-size: 5rem;
+  color: var(--second-main-color);
+}
+
+#about-section .services-container .srv-box h2{
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  color: var(--font-color);
+}
