@@ -837,3 +837,19 @@ header .search .search-glass {
   padding: 0.5rem 0.7rem;
   border-radius:50% ;
 }
+
+#about-section .more-info {
+  background-color: var(--second-main-color);
+
+  padding: 0rem 50rem;
+  padding-bottom: 8rem;
+}
+
+#about-section .more-info h3{
+  font-size: 1.5rem;
+  color: var(--font-color-2);
+}
+
+#about-section .more-info h3 a{
+  color: var(--font-color);
+}
