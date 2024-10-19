@@ -781,13 +781,16 @@ header .search .search-glass {
 
 #about-section .services-container  {
   background-color: var(--second-main-color);
-  padding: 5rem 15rem;
+  padding: 5rem 20rem;
+  display: flex;
+  justify-content: space-between;
+
 }
 
 #about-section .services-container .srv-box{
   width: 25rem;
   background-color:var(--background-color);
-  padding: 3rem;
+  padding: 4rem;
   border-radius: 1rem;
 }
 
@@ -802,7 +805,7 @@ header .search .search-glass {
 }
 
 #about-section .services-container .srv-box h2{
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin-top: 2rem;
   color: var(--font-color);
 }
