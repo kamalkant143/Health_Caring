@@ -783,7 +783,9 @@ header .search .search-glass {
   background-color: var(--second-main-color);
   padding: 5rem 20rem;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 3rem;
+  flex-wrap: wrap;
 
 }
 
@@ -805,8 +807,9 @@ header .search .search-glass {
   position: absolute;
   width: 100%;
   left: 0;
-  top: -8rem;
+  top: -7rem;
 }
+
 #about-section .services-container .srv-box i{
   font-size: 5rem;
   color: var(--second-main-color);
