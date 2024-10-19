@@ -741,4 +741,40 @@ header .search .search-glass {
   padding: 0 45rem 0 20rem;
 }
 
-#about-section .about-community .middle-box
+#about-section .about-community .middle-box {
+  position: relative;
+}
+
+#about-section .about-community .middle-box  .fa-shield-halved{
+  position: absolute;
+  left: 60rem;
+  font-size: 6rem;
+  color: #35FFF0;
+}
+
+#about-section .about-community .middle-box .about-comm {
+  margin:5rem  5rem 0 70rem ;
+}
+
+#about-section .about-community .middle-box .about-comm p{
+  font-size:2rem ;
+  color: var(--font-color-2);
+}
+
+#about-section .about-community .middle-box .about-comm .value {
+  margin-top: 1.2rem;
+}
+
+#about-section .about-community .middle-box .about-comm .value .fa-arrow-right{
+  font-size: 1.8rem;
+  color: var(--second-main-color);
+  background-color: var(--background-color);
+  padding: 0.5rem 0.6rem;
+  border-radius:50rem ;
+}
+
+#about-section .about-community .middle-box .about-comm .value a{
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  color: var(--font-color-2);
+}
