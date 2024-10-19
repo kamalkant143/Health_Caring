@@ -788,17 +788,25 @@ header .search .search-glass {
 }
 
 #about-section .services-container .srv-box{
+  position: relative;
   width: 25rem;
   background-color:var(--background-color);
   padding: 4rem;
   border-radius: 1rem;
+
 }
 
 #about-section .services-container .srv-box img{
-  width: 100%;
   display: none;
 }
 
+#about-section .services-container .srv-box:hover img{
+  display: flex;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: -8rem;
+}
 #about-section .services-container .srv-box i{
   font-size: 5rem;
   color: var(--second-main-color);
