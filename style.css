@@ -734,7 +734,7 @@ header .search .search-glass {
   background-color: var(--second-main-color);
 }
 
-#about-section .about-community h2{
+#about-section .about-community h2 {
   color: var(--font-color-2);
   font-size: 4rem;
   font-weight: 500;
@@ -745,19 +745,19 @@ header .search .search-glass {
   position: relative;
 }
 
-#about-section .about-community .middle-box  .fa-shield-halved{
+#about-section .about-community .middle-box .fa-shield-halved {
   position: absolute;
   left: 60rem;
   font-size: 6rem;
-  color: #35FFF0;
+  color: #35fff0;
 }
 
 #about-section .about-community .middle-box .about-comm {
-  margin:5rem  5rem 0 70rem ;
+  margin: 5rem 5rem 0 70rem;
 }
 
-#about-section .about-community .middle-box .about-comm p{
-  font-size:2rem ;
+#about-section .about-community .middle-box .about-comm p {
+  font-size: 2rem;
   color: var(--font-color-2);
 }
 
@@ -765,44 +765,42 @@ header .search .search-glass {
   margin-top: 1.2rem;
 }
 
-#about-section .about-community .middle-box .about-comm .value .fa-arrow-right{
+#about-section .about-community .middle-box .about-comm .value .fa-arrow-right {
   font-size: 1.8rem;
   color: var(--second-main-color);
   background-color: var(--background-color);
   padding: 0.5rem 0.6rem;
-  border-radius:50rem ;
+  border-radius: 50rem;
 }
 
-#about-section .about-community .middle-box .about-comm .value a{
+#about-section .about-community .middle-box .about-comm .value a {
   margin-left: 1rem;
   font-size: 1.5rem;
   color: var(--font-color-2);
 }
 
-#about-section .services-container  {
+#about-section .services-container {
   background-color: var(--second-main-color);
   padding: 5rem 21rem;
   display: flex;
   /* justify-content: space-between; */
   gap: 3rem;
   flex-wrap: wrap;
-
 }
 
-#about-section .services-container .srv-box{
+#about-section .services-container .srv-box {
   position: relative;
   width: 25rem;
-  background-color:var(--background-color);
+  background-color: var(--background-color);
   padding: 4rem;
   border-radius: 1rem;
-
 }
 
-#about-section .services-container .srv-box img{
+#about-section .services-container .srv-box img {
   display: none;
 }
 
-#about-section .services-container .srv-box:hover img{
+#about-section .services-container .srv-box:hover img {
   display: flex;
   position: absolute;
   width: 100%;
@@ -810,22 +808,22 @@ header .search .search-glass {
   top: -7rem;
 }
 
-#about-section .services-container .srv-box i{
+#about-section .services-container .srv-box i {
   font-size: 5rem;
   color: var(--second-main-color);
 }
 
-#about-section .services-container .srv-box h2{
+#about-section .services-container .srv-box h2 {
   font-size: 1.5rem;
   margin-top: 2rem;
   color: var(--font-color);
 }
 
-#about-section .services-container .srv-box .fa-arrow-right{
+#about-section .services-container .srv-box .fa-arrow-right {
   display: none;
 }
 
-#about-section .services-container .srv-box:hover .fa-arrow-right{
+#about-section .services-container .srv-box:hover .fa-arrow-right {
   display: initial;
   cursor: pointer;
   position: absolute;
@@ -835,7 +833,7 @@ header .search .search-glass {
   background-color: var(--font-color);
   color: var(--font-color-2);
   padding: 0.5rem 0.7rem;
-  border-radius:50% ;
+  border-radius: 50%;
 }
 
 #about-section .more-info {
@@ -845,23 +843,23 @@ header .search .search-glass {
   padding-bottom: 8rem;
 }
 
-#about-section .more-info h3{
+#about-section .more-info h3 {
   font-size: 1.5rem;
   color: var(--font-color-2);
 }
 
-#about-section .more-info h3 a{
+#about-section .more-info h3 a {
   color: var(--font-color);
 }
 
 /* ====== our doctor section styling ======== */
 
-#our-doctor{
+#our-doctor {
   background-color: var(--background-color);
   padding: 8rem;
 }
 
-#our-doctor h4{
+#our-doctor h4 {
   text-align: center;
   font-size: 3.5rem;
   font-weight: 600;
@@ -869,54 +867,118 @@ header .search .search-glass {
   margin-top: 2rem;
 }
 
-#our-doctor h2{
+#our-doctor h2 {
   margin-top: 1.5rem;
   text-align: center;
-    font-size: 1.7rem;
-    font-weight: 500;
-    color: var(--font-color-3);
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: var(--font-color-3);
 }
 
-#our-doctor .doctor-container{
+#our-doctor .doctor-container {
   padding: 5rem 8rem;
-
 }
 
-#our-doctor .doctor-container .od-details{
+#our-doctor .doctor-container .od-details {
   width: 35rem;
 }
 
-#our-doctor .doctor-container .od-details .box-upper{
+#our-doctor .doctor-container .od-details .box-upper {
   width: 100%;
   height: 50%;
- overflow: hidden;
+  overflow: hidden;
+  border-radius: 1.8rem;
 }
 
-
-
-#our-doctor .doctor-container .od-details .box-upper img{
+#our-doctor .doctor-container .od-details .box-upper img {
   width: 100%;
   height: 35rem;
-  border-radius: 1rem;
   transition: all 0.5s;
 }
 
-#our-doctor .doctor-container .od-details:hover .box-upper img{
+#our-doctor .doctor-container .od-details:hover .box-upper img {
   transform: scale(1.2);
- }
+  border-radius: 1rem;
+}
 
- #our-doctor .doctor-container .od-details .box-down{
-  padding: 4rem;
- }
+#our-doctor .doctor-container .od-details .box-down {
+  padding: 3.5rem;
+}
 
- #our-doctor .doctor-container .od-details .box-down h3{
+#our-doctor .doctor-container .od-details .box-down h3 {
   font-size: 2rem;
   font-weight: 600;
   color: var(--font-color);
   transition: all 0.2s;
- }
+}
 
- #our-doctor .doctor-container .od-details .box-down h3:hover{
+#our-doctor .doctor-container .od-details .box-down h3:hover {
   color: var(--second-main-color);
   cursor: pointer;
- }
+}
+
+#our-doctor .doctor-container .od-details .box-down span {
+  display: inline-block;
+  color: var(--second-main-color);
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  cursor: pointer;
+}
+
+#our-doctor .doctor-container .od-details .box-down p {
+  font-size: 1.4rem;
+  color: var(--font-color-3);
+}
+
+#our-doctor .doctor-container .od-details .box-down .od-wrap {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+#our-doctor .doctor-container .od-details .box-down .od-wrap .read {
+  display: inline-block;
+  color: var(--font-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 2rem 0;
+  transition: all 0.5s;
+}
+
+#our-doctor .doctor-container .od-details:hover .box-down .od-wrap .read {
+  background-color: var(--second-main-color);
+  padding: 0.8rem 1.5rem;
+  border-radius: 50rem;
+  color: var(--font-color-2);
+}
+
+#our-doctor .doctor-container .od-details .box-down .od-wrap .doctor-media {
+  display: none;
+  margin-left: 1.5rem;
+}
+
+#our-doctor
+  .doctor-container
+  .od-details:hover
+  .box-down
+  .od-wrap
+  .doctor-media {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+#our-doctor .doctor-container .od-details .box-down .od-wrap .doctor-media a i {
+  font-size: 2.5rem;
+  color: var(--font-color);
+}
+
+#our-doctor
+  .doctor-container
+  .od-details
+  .box-down
+  .od-wrap
+  .doctor-media
+  a
+  i:hover {
+  color: var(--second-main-color);
+}
