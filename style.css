@@ -905,4 +905,18 @@ header .search .search-glass {
   transform: scale(1.2);
  }
 
- #our-doctor .doctor-container .od-details
+ #our-doctor .doctor-container .od-details .box-down{
+  padding: 4rem;
+ }
+
+ #our-doctor .doctor-container .od-details .box-down h3{
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--font-color);
+  transition: all 0.2s;
+ }
+
+ #our-doctor .doctor-container .od-details .box-down h3:hover{
+  color: var(--second-main-color);
+  cursor: pointer;
+ }
