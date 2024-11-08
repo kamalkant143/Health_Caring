@@ -881,6 +881,7 @@ header .search .search-glass {
 
 #our-doctor .doctor-container .od-details {
   width: 35rem;
+ 
 }
 
 #our-doctor .doctor-container .od-details .box-upper {
@@ -933,7 +934,6 @@ header .search .search-glass {
 #our-doctor .doctor-container .od-details .box-down .od-wrap {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
 }
 #our-doctor .doctor-container .od-details .box-down .od-wrap .read {
   display: inline-block;
