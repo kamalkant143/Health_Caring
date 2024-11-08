@@ -877,12 +877,33 @@ header .search .search-glass {
 
 #our-doctor .doctor-container {
   padding: 5rem 8rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
 }
 
 #our-doctor .doctor-container .od-details {
   width: 35rem;
- 
+  height: 60rem;
+  border-radius: 1rem;
+  position: relative;
 }
+
+#our-doctor .doctor-container .od-details:hover{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+#our-doctor .doctor-container .od-details:hover .bottom-line
+{
+  position: absolute;
+  bottom: 0;
+  margin: 0 2rem;
+  width: 90% ;
+  height: 0.2rem;
+  background-color: #03c99d;
+}
+
 
 #our-doctor .doctor-container .od-details .box-upper {
   width: 100%;
@@ -895,6 +916,7 @@ header .search .search-glass {
   width: 100%;
   height: 35rem;
   transition: all 0.5s;
+  cursor: pointer;
 }
 
 #our-doctor .doctor-container .od-details:hover .box-upper img {
@@ -903,7 +925,7 @@ header .search .search-glass {
 }
 
 #our-doctor .doctor-container .od-details .box-down {
-  padding: 3.5rem;
+  padding: 3rem;
 }
 
 #our-doctor .doctor-container .od-details .box-down h3 {
@@ -953,7 +975,7 @@ header .search .search-glass {
 
 #our-doctor .doctor-container .od-details .box-down .od-wrap .doctor-media {
   display: none;
-  margin-left: 1.5rem;
+  margin-left: 1.8rem;
 }
 
 #our-doctor
