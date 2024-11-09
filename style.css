@@ -884,7 +884,7 @@ header .search .search-glass {
 
 #our-doctor .doctor-container .od-details {
   width: 35rem;
-  height: 60rem;
+  height: 63rem;
   border-radius: 1rem;
   position: relative;
 }
@@ -914,13 +914,13 @@ header .search .search-glass {
 
 #our-doctor .doctor-container .od-details .box-upper img {
   width: 100%;
-  height: 35rem;
+  height: 40rem;
   transition: all 0.5s;
   cursor: pointer;
 }
 
 #our-doctor .doctor-container .od-details:hover .box-upper img {
-  transform: scale(1.2);
+  transform: scale(1.1);
   border-radius: 1rem;
 }
 
@@ -1002,5 +1002,24 @@ header .search .search-glass {
   .doctor-media
   a
   i:hover {
+  color: var(--second-main-color);
+}
+
+
+/* =========== introduction section stylindg ============ */
+
+#all-intro{
+  /* width: 100%; */
+  background-color: #203253;
+  display: flex;
+  justify-content: space-between;
+  padding: 8rem 12rem;
+}
+
+#all-intro .intro-left{
+  width: 50%;
+}
+
+#all-intro .intro-left h2{
   color: var(--second-main-color);
 }
