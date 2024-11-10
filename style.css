@@ -1076,7 +1076,7 @@ header .search .search-glass {
   display: flex;
   justify-content: space-between;
   gap: 3rem;
-  padding-inline:5rem ;
+  padding-inline:12rem ;
 }
 
 #all-intro .infro-details .details-box{
@@ -1097,13 +1097,13 @@ header .search .search-glass {
   align-items: center;
 }
 
-#all-intro .infro-details .details-box .file .fa-file-lines{
+#all-intro .infro-details .details-box .file i{
  font-size: 5rem;
  color: var(--main-color);
  transition: all 0.3s;
 }
 
-#all-intro .infro-details .details-box:hover .file .fa-file-lines{
+#all-intro .infro-details .details-box:hover .file i{
   color: var(--second-main-color);
 }
 
