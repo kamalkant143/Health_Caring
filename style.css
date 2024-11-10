@@ -1070,3 +1070,22 @@ header .search .search-glass {
   margin-right: 1rem;
   background-color: var(--second-main-color);
 }
+
+
+#all-intro .infro-details{
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+#all-intro .infro-details .details-box{
+  width: 30rem;
+  border-radius: 1rem;
+  background-color: var(--background-color);
+  padding: 4rem 3rem;
+}
+
+
+#all-intro .infro-details .details-box .fa-file-lines{
+ font-size: 5rem;
+}
