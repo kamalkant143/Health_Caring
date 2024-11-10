@@ -1076,6 +1076,7 @@ header .search .search-glass {
   display: flex;
   justify-content: space-between;
   gap: 3rem;
+  padding-inline:5rem ;
 }
 
 #all-intro .infro-details .details-box{
@@ -1083,6 +1084,11 @@ header .search .search-glass {
   border-radius: 1rem;
   background-color: var(--background-color);
   padding: 3rem ;
+  transition: all 0.3s;
+}
+
+#all-intro .infro-details .details-box:hover{
+  transform: translateY(-1rem);
 }
 
 #all-intro .infro-details .details-box .file {
@@ -1094,12 +1100,45 @@ header .search .search-glass {
 #all-intro .infro-details .details-box .file .fa-file-lines{
  font-size: 5rem;
  color: var(--main-color);
+ transition: all 0.3s;
+}
+
+#all-intro .infro-details .details-box:hover .file .fa-file-lines{
+  color: var(--second-main-color);
 }
 
 #all-intro .infro-details .details-box .file span {
   color: var(--font-color-3);
-  font-size: 9rem;
+  font-size: 8rem;
   font-weight: 700;
 }
 
-#all-intro .infro-details .details-box
+#all-intro .infro-details .details-box h2{
+  font-size: 2rem;
+  color: var(--font-color);
+}
+
+#all-intro .infro-details .details-box p{
+  margin-block: 2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--font-color-3);
+}
+
+#all-intro .infro-details .details-box a{
+  color: var(--font-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#all-intro .infro-details .details-box a:hover{
+  color: var(--second-main-color);
+}
+
+#all-intro .infro-details .details-box a i{
+  margin-left: 0.5rem;
+}
