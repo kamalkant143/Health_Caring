@@ -1055,9 +1055,13 @@ header .search .search-glass {
 #all-intro .intro-right .infro-box h4{
  color: var(--font-color-2);
  font-size: 1.5rem;
+ margin-top: 1rem;
 }
 
 #all-intro .intro-right .infro-box h4 i{
+  font-size: 1.3rem;
+  padding: 0.3rem 0.4rem;
+  border-radius: 50rem;
   margin-right: 1rem;
   background-color: var(--second-main-color);
 }
