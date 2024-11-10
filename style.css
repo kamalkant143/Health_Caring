@@ -1011,10 +1011,14 @@ header .search .search-glass {
 #all-intro{
   /* width: 100%; */
   background-color: #203253;
+
+}
+
+#all-intro .intro-container{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8rem 12rem;
+  padding: 0 12rem;
 }
 
 #all-intro .intro-left{
@@ -1036,6 +1040,7 @@ header .search .search-glass {
 
 #all-intro .intro-right{
   width: 50%;
+  margin-top: 7rem;
 }
 
 #all-intro .intro-right p{
