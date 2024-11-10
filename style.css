@@ -1082,10 +1082,24 @@ header .search .search-glass {
   width: 30rem;
   border-radius: 1rem;
   background-color: var(--background-color);
-  padding: 4rem 3rem;
+  padding: 3rem ;
 }
 
+#all-intro .infro-details .details-box .file {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-#all-intro .infro-details .details-box .fa-file-lines{
+#all-intro .infro-details .details-box .file .fa-file-lines{
  font-size: 5rem;
+ color: var(--main-color);
 }
+
+#all-intro .infro-details .details-box .file span {
+  color: var(--font-color-3);
+  font-size: 9rem;
+  font-weight: 700;
+}
+
+#all-intro .infro-details .details-box
