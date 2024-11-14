@@ -1147,7 +1147,7 @@ header .search .search-glass {
 
 #all-intro .medical-box{
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   background-color: #3851A2;
   padding: 13rem 15rem 5rem;
@@ -1157,7 +1157,16 @@ header .search .search-glass {
   font-size: 12rem;
   color: #4C63AB;
 }
-
 #all-intro .medical-box .md-box {
-  
+  margin: 0 30rem  0 5rem;
+}
+
+#all-intro .medical-box .md-box h2 {
+ font-size: 2.5rem;
+ color: var(--font-color-2);
+}
+
+#all-intro .medical-box .md-box p{
+  font-size: 1.5rem;
+  color: var(--font-color-2);
 }
