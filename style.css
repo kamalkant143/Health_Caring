@@ -1142,3 +1142,7 @@ header .search .search-glass {
 #all-intro .infro-details .details-box a i{
   margin-left: 0.5rem;
 }
+
+#all-intro .medical-box{
+  background-color: #3851A2;
+}
