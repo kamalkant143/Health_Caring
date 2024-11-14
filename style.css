@@ -1073,6 +1073,8 @@ header .search .search-glass {
 
 
 #all-intro .infro-details{
+  position: relative;
+  bottom: -5rem;
   display: flex;
   justify-content: space-between;
   gap: 3rem;
@@ -1088,7 +1090,7 @@ header .search .search-glass {
 }
 
 #all-intro .infro-details .details-box:hover{
-  transform: translateY(-1rem);
+  transform: translateY(-2rem);
 }
 
 #all-intro .infro-details .details-box .file {
@@ -1144,5 +1146,18 @@ header .search .search-glass {
 }
 
 #all-intro .medical-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #3851A2;
+  padding: 13rem 15rem 5rem;
+}
+
+#all-intro .medical-box .fa-hospital{
+  font-size: 12rem;
+  color: #4C63AB;
+}
+
+#all-intro .medical-box .md-box {
+  
 }
