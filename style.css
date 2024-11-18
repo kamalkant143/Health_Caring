@@ -1170,3 +1170,15 @@ header .search .search-glass {
   font-size: 1.5rem;
   color: var(--font-color-2);
 }
+
+#all-intro .medical-box .health-care-btn{
+  font-size: 1.5rem;
+  background-color: var(--second-main-color);
+  padding: 1.3rem 2.2rem;
+  width:55rem ;
+  transition: all 0.3s;
+}
+
+#all-intro .medical-box .health-care-btn:hover{
+  background-color: var(--font-color);
+}
