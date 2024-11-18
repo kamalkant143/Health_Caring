@@ -1182,3 +1182,31 @@ header .search .search-glass {
 #all-intro .medical-box .health-care-btn:hover{
   background-color: var(--font-color);
 }
+
+#stories-dc .stories-wrapp-ct{
+  padding: 10rem;
+display: flex;
+gap: 2rem;
+}
+
+#stories-dc .stories-wrapp-ct .stories-left-ct{
+  text-align: center;
+  width: 50%;
+}
+
+#stories-dc .stories-wrapp-ct .stories-left-ct h2{
+  font-size: 4rem;
+  color: var(--font-color);
+}
+
+#stories-dc .stories-wrapp-ct .stories-right-ct{
+  width: 50%;
+  text-align: start;
+}
+
+#stories-dc .stories-wrapp-ct .stories-right-ct p{
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: var(--main-color);
+}
+
