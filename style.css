@@ -1241,3 +1241,34 @@ gap: 2rem;
   font-size: 1.4rem;
   color: var(--font-color-3);
 }
+
+
+/* =========== booking section stylindg ============ */
+
+#booking-help{
+  padding: 5rem 10rem;
+  display: flex;
+  background-color: var(--second-main-color);
+}
+
+#booking-help .booking-contaner {
+  padding: 5rem 3rem;
+  width: 50%;
+  background-color: var(--background-color);
+}
+
+#booking-help .booking-contaner h2{
+  font-size: 2.5rem;
+  color: var(--font-color);
+  font-weight: 600;
+}
+
+#booking-help .booking-contaner p{
+  font-size: 1.5rem;
+  color: var(--font-color-3);
+  margin-block: 2rem;
+}
+
+#booking-help .help-container{
+  width: 50%;
+}
