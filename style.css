@@ -1246,7 +1246,7 @@ gap: 2rem;
 /* =========== booking section stylindg ============ */
 
 #booking-help{
-  padding: 5rem 10rem;
+  padding: 5rem 15rem;
   display: flex;
   background-color: var(--second-main-color);
 }
@@ -1254,6 +1254,7 @@ gap: 2rem;
 #booking-help .booking-contaner {
   padding: 5rem 3rem;
   width: 50%;
+  border-radius: 2rem;
   background-color: var(--background-color);
 }
 
@@ -1277,7 +1278,7 @@ gap: 2rem;
 
 #booking-help .booking-contaner .option  .select-wrp{
   display: inline-block;
-  border: 1px solid var(--font-color-3);
+  border: 0.2rem solid var(--second-main-color);
   border-radius: 50rem;
   padding: 1.5rem 2rem;
 }
@@ -1289,15 +1290,12 @@ gap: 2rem;
 }
 
 #booking-help .booking-contaner .option  .wrap{
-  border: 1px solid var(--font-color-3);
+  border:0.2rem solid var(--second-main-color);
   border-radius: 50rem;
   padding: 1.5rem 2rem;
 }
 
 
-#booking-help .booking-contaner .option  .wrap:focus{
-border: 2px solid var(--second-main-color);
-}
 
 #booking-help .booking-contaner .option  .wrap input{
   border: none;
