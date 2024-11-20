@@ -1252,7 +1252,7 @@ gap: 2rem;
 }
 
 #booking-help .booking-contaner {
-  padding: 5rem 3rem;
+  padding: 7rem 3rem;
   width: 50%;
   border-radius: 2rem;
   background-color: var(--background-color);
@@ -1272,7 +1272,8 @@ gap: 2rem;
 
 #booking-help .booking-contaner .option{
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-around; */
+  gap: 1rem;
   margin-block: 2rem;
 }
 
@@ -1289,7 +1290,7 @@ gap: 2rem;
   color: var(--main-color);
 }
 
-#booking-help .booking-contaner .option  .wrap{
+#booking-help .booking-contaner .option  .comman1{
   border:0.2rem solid var(--second-main-color);
   border-radius: 50rem;
   padding: 1.5rem 2rem;
@@ -1297,9 +1298,28 @@ gap: 2rem;
 
 
 
-#booking-help .booking-contaner .option  .wrap input{
+#booking-help .booking-contaner .option  .comman1 input{
   border: none;
   font-size: 1.5rem;
+  color: var(--main-color);
+  margin-left: 1.3rem;
+  outline: none;
+}
+
+#booking-help .booking-contaner .option  .comman1 label i{
+  font-size: 1.5rem;
+  color: var(--second-main-color);
+}
+
+#booking-help .booking-contaner .option .wrap {
+  border:0.2rem solid var(--second-main-color);
+  border-radius: 50rem;
+  padding: 1.5rem 2rem;
+}
+
+#booking-help .booking-contaner .option .wrap input{
+  border: none;
+  font-size: 1.2rem;
   color: var(--main-color);
   margin-left: 1.3rem;
   outline: none;
@@ -1309,6 +1329,8 @@ gap: 2rem;
   font-size: 1.5rem;
   color: var(--second-main-color);
 }
+
+/* #booking-help .booking-contaner .option .wrap input[da] */
 
 
 
