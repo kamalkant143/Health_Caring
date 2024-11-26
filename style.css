@@ -1383,3 +1383,18 @@ gap: 2rem;
 height: 0.2rem;
 background-color: var(--background-color);
 }
+
+#booking-help .help-container h3{
+  color: var(--font-color-2);
+  font-size: 1.5rem;
+  margin-block: 3rem;
+}
+
+#booking-help .help-container h4{
+  font-size: 1.5rem;
+  color: var(--font-color-2);
+}
+
+#booking-help .help-container h4 span{
+  font-size: 1.2rem;
+}
