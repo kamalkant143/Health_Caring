@@ -1272,7 +1272,7 @@ gap: 2rem;
 
 #booking-help .booking-contaner .option{
   display: flex;
-  /* justify-content: space-around; */
+  justify-content: space-between;
   align-items: center;
   gap: 1rem;
   margin-block: 3rem;
@@ -1282,7 +1282,7 @@ gap: 2rem;
   display: inline-block;
   border: 0.2rem solid var(--second-main-color);
   border-radius: 50rem;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 5rem;
 }
 
 #booking-help .booking-contaner .option  .select-wrp select{
@@ -1335,8 +1335,19 @@ gap: 2rem;
   color: var(--second-main-color);
 }
 
-#booking-help .booking-contaner 
+#booking-help .booking-contaner  .book-btn{
+  text-align: center;
+  display: block;
+  background-color: var(--font-color);
+  font-size: 1.5rem;
+  width: 100%;
+  padding-block: 1.8rem;
+  transition: all 0.3s;
+}
 
+#booking-help .booking-contaner  .book-btn:hover{
+  background-color: var(--second-main-color);
+}
 /* #booking-help .booking-contaner .option .wrap input[da] */
 
 
