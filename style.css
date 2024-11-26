@@ -1358,3 +1358,28 @@ gap: 2rem;
   font-size: 4rem;
   color: var(--font-color-2);
 }
+
+#booking-help .help-container p{
+  color: var(--font-color-2);
+  font-size: 1.7rem;
+  margin-block: 2rem;
+}
+
+#booking-help .help-container .gift-btn{
+  display: inline-block;
+  margin-block: 2rem;
+  font-size: 1.5rem;
+  color: var(--font-color);
+  background-color: var(--background-color);
+  padding: 1.5rem 2.5rem;
+}
+
+#booking-help .help-container .gift-btn .fa-heart{
+  margin-right: 0.8rem;
+}
+
+#booking-help .help-container hr {
+  border: none;
+height: 0.2rem;
+background-color: var(--background-color);
+}
