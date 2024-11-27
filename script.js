@@ -1,4 +1,5 @@
 const slideBox =document.querySelectorAll(".care-box")
+const slider =document.querySelectorAll(".button")
 
 // const slider = document.querySelector(".slider-box div")
 
@@ -16,8 +17,10 @@ const slideBox =document.querySelectorAll(".care-box")
 
 // }
 
+console.log(slideBox);
 
-const slider =document.querySelector(".slider-box")
+
+
 
     const insideDiv =document.createElement('div')
     insideDiv.className="button"
@@ -27,3 +30,11 @@ const slider =document.querySelector(".slider-box")
 
     slider.appendChild(insideDiv)
     slider.appendChild(insideDivTwo)
+
+
+    slider.addEventListener("click",function(){
+      slideBox.forEach(function(){
+        console.log(slideBox)
+      })
+    })
+      

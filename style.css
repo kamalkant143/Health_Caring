@@ -521,7 +521,7 @@ header .search .search-glass {
   .medical-care-container
   .all-box-cover
   .care-box.side {
-  transform: translateX(-90rem);
+  transform: translateX(-rem);
 }
 
 #about-section
