@@ -1509,7 +1509,16 @@ footer .ft-container .fourth-box .ft-box a:hover i{
 }
 
 footer .ft-container .fourth-box .ft-box .ft-media i{
-  font-size: 2rem;
+  font-size: 1.2rem;
   background-color: var(--font-color);
   color: var(--font-color-2);
+  padding: 0.8rem 0.9rem;
+  border-radius: 50rem;
+  margin-right: 0.5rem;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+footer .ft-container .fourth-box .ft-box .ft-media i:hover{
+  background-color: var(--second-main-color);
 }
