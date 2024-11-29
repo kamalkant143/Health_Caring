@@ -1399,3 +1399,15 @@ background-color: var(--background-color);
 #booking-help .help-container h4 span{
   font-size: 1.2rem;
 }
+
+
+/* =========== footer section stylindg ============ */
+
+footer .ft-container{
+  display: flex;
+  gap: 1rem;
+}
+
+footer .ft-container .first-box img{
+  width: 10rem;
+}
