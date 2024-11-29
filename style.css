@@ -1404,10 +1404,44 @@ background-color: var(--background-color);
 /* =========== footer section stylindg ============ */
 
 footer .ft-container{
+  background-color: var(--font-color);
   display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+  padding: 5rem 20rem
+}
+
+footer .ft-container .first-box .image{
+  display:flex;
+  align-items: center;
   gap: 1rem;
 }
 
-footer .ft-container .first-box img{
-  width: 10rem;
+footer .ft-container .first-box .image img{
+  width: 7rem;
+}
+
+footer .ft-container .first-box .image h2{
+  font-size: 1.8rem;
+  color: var(--font-color-2);
+}
+
+footer .ft-container .first-box p{
+  font-size: 1.4rem;
+  color: var(--font-color-2);
+  margin-block: 2rem;
+  line-height: 1.8;
+}
+
+footer .ft-container .first-box  a{
+  color: var(--second-main-color);
+  font-size: 1.6rem;
+}
+
+footer .ft-container .first-box  a i{
+  margin-right: 1rem;
+}
+
+footer .ft-container .first-box  a:hover i{
+  color: var(--font-color-2);
 }
