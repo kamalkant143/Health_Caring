@@ -1503,3 +1503,13 @@ footer .ft-container .fourth-box .ft-box a{
 footer .ft-container .fourth-box .ft-box a i{
   margin-right: 2rem;
 }
+
+footer .ft-container .fourth-box .ft-box a:hover i{
+  color: var(--font-color);
+}
+
+footer .ft-container .fourth-box .ft-box .ft-media i{
+  font-size: 2rem;
+  background-color: var(--font-color);
+  color: var(--font-color-2);
+}
