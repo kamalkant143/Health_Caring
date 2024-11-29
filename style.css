@@ -1521,3 +1521,34 @@ footer .ft-container .fourth-box .ft-box .ft-media i{
 footer .ft-container .fourth-box .ft-box .ft-media i:hover{
   background-color: var(--second-main-color);
 }
+
+footer .ft-second-container{
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--background-color);
+  padding: 5rem 15rem;
+}
+
+footer .ft-second-container h3{
+  color: var(--font-color-3);
+  font-size: 1.3rem;
+  font-weight: 500;
+
+}
+
+footer .ft-second-container .sd-box{
+ display: flex;
+ gap: 5rem;
+}
+
+footer .ft-second-container .sd-box a{
+  color: var(--font-color-3);
+  font-size: 1.5rem;
+  transition: all 0.3s;
+}
+
+footer .ft-second-container .sd-box a:hover {
+ color: var(--second-main-color);
+}
+
+
