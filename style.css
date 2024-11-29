@@ -1406,8 +1406,7 @@ background-color: var(--background-color);
 footer .ft-container{
   background-color: var(--font-color);
   display: flex;
-  justify-content: space-between;
-  gap: 10rem;
+  gap: 8rem;
   padding: 5rem 20rem
 }
 
@@ -1444,4 +1443,63 @@ footer .ft-container .first-box  a i{
 
 footer .ft-container .first-box  a:hover i{
   color: var(--font-color-2);
+}
+
+footer .ft-container .cm-box h3{
+color: var(--font-color-2);
+font-size: 1.7rem;
+margin-bottom: 2.5rem;
+}
+
+footer .ft-container .cm-box h5{
+  color: var(--font-color-3);
+  font-size: 1.3rem;
+}
+
+footer .ft-container .fourth-box{
+  background-color: var(--background-color);
+  padding: 3rem;
+  border-radius:1rem ;
+}
+
+footer .ft-container .fourth-box h2{
+  color: var(--font-color);
+}
+
+footer .ft-container .fourth-box p{
+  color: var(--font-color-3);
+  font-size: 1.4rem;
+  margin-block: 2rem;
+}
+
+footer .ft-container .fourth-box .phone{
+  color: var(--font-color);
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  transition: all 0.3s;
+}
+
+footer .ft-container .fourth-box .phone:hover{
+  color: var(--second-main-color);
+}
+
+footer .ft-container .fourth-box .phone i{
+  margin-right: 2rem;
+}
+
+footer .ft-container .fourth-box .ft-box{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+footer .ft-container .fourth-box .ft-box a{
+  color: var(--second-main-color);
+  font-size: 1.5rem;
+  /* letter-spacing: 0; */
+}
+
+footer .ft-container .fourth-box .ft-box a i{
+  margin-right: 2rem;
 }
