@@ -17,6 +17,7 @@
 
 html {
   font-size: 62.5%;
+  
 }
 li {
   list-style: none;
@@ -24,7 +25,9 @@ li {
 a {
   text-decoration: none;
 }
-
+ body{
+  position: relative;
+ }
 /* ==== btn styling ==== */
 .btn {
   /* background-color: var(--main-color); */
@@ -37,6 +40,24 @@ a {
   border-radius: 50rem;
   cursor: pointer;
   transition: all 0.2s linear;
+}
+
+/* ===== side arrow styling ===== */
+ 
+#side-arrow{
+  position: fixed;
+  bottom: 4rem;
+  right: 2rem;
+  background-color: var(--second-main-color);
+  font-size: 2rem;
+  color: var(--font-color-2);
+  padding: 1rem 1.8rem;
+  border-radius: 50rem;
+  transition: all 0.3s;
+}
+
+#side-arrow:hover{
+  background-color: var(--font-color);
 }
 
 /* ===== header styling ===== */
