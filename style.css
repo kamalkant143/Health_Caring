@@ -1407,7 +1407,7 @@ footer .ft-container{
   background-color: var(--font-color);
   display: flex;
   gap: 8rem;
-  padding: 5rem 20rem
+  padding: 7rem 20rem
 }
 
 footer .ft-container .first-box .image{
@@ -1514,7 +1514,6 @@ footer .ft-container .fourth-box .ft-box .ft-media i{
   color: var(--font-color-2);
   padding: 0.8rem 0.9rem;
   border-radius: 50rem;
-  margin-right: 0.5rem;
   transition: all 0.3s;
   cursor: pointer;
 }
