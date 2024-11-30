@@ -1273,6 +1273,27 @@ gap: 2rem;
   color: var(--font-color-3);
 }
 
+#stories-dc .img-dt-container .img-box {
+  display: flex;
+  padding-inline: 6rem;
+  margin-bottom: 10rem;
+}
+
+#stories-dc .img-dt-container .img-box img{
+  display: inline-block;
+width: 35rem;
+}
+
+#stories-dc .img-dt-container .img-box :nth-child(1){
+  border-top-left-radius:1.3rem ;
+  border-bottom-left-radius:1.3rem ;
+}
+
+#stories-dc .img-dt-container .img-box :nth-child(4){
+  border-top-right-radius:1.3rem ;
+  border-bottom-right-radius:1.3rem ;
+}
+
 
 /* =========== booking section stylindg ============ */
 
