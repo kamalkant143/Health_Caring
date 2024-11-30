@@ -1244,7 +1244,8 @@ gap: 2rem;
 #stories-dc .stories-wrapp-ct .stories-right-ct .details-stories .dt-st img{
   width: 7rem;
   height: 7rem;
-  padding: 0.5rem;
+  padding: 0.4rem;
+  object-fit: cover;
   border: 2px solid var(--second-main-color);
   border-radius: 50rem;
 }
