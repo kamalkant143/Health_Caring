@@ -1392,6 +1392,13 @@ gap: 2rem;
   color: var(--font-color);
   background-color: var(--background-color);
   padding: 1.5rem 2.5rem;
+  transition: all 0.3s;
+}
+
+#booking-help .help-container .gift-btn:hover{
+  background-color: var(--second-main-color);
+  color: var(--font-color-2);
+  border: 1px solid var(--background-color);
 }
 
 #booking-help .help-container .gift-btn .fa-heart{
@@ -1426,7 +1433,7 @@ footer .ft-container{
   background-color: var(--font-color);
   display: flex;
   gap: 8rem;
-  padding: 7rem 20rem
+  padding: 7rem 14rem
 }
 
 footer .ft-container .first-box .image{
