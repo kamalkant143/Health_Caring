@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", system-ui;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -157,10 +158,21 @@ header .search .search-glass {
 }
 
 #hero-section .nav-wrapper {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.8rem 10rem;
+  width: 100%;
+
+}
+
+#hero-section .nav-wrapper.scroll-navBar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--background-color);
+  z-index: 1000;
 }
 
 #hero-section .nav-wrapper .logo-hero {
