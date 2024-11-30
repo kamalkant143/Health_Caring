@@ -1464,15 +1464,25 @@ footer .ft-container .first-box  a:hover i{
   color: var(--font-color-2);
 }
 
+
 footer .ft-container .cm-box h3{
 color: var(--font-color-2);
 font-size: 1.7rem;
 margin-bottom: 2.5rem;
+width: 15rem;
+
 }
 
 footer .ft-container .cm-box h5{
   color: var(--font-color-3);
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  line-height: 1.8;
+}
+
+footer .ft-container .cm-box h5:hover{
+  color: var(--second-main-color);
 }
 
 footer .ft-container .fourth-box{
