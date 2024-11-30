@@ -173,13 +173,13 @@ header .search .search-glass {
 }
 
 #hero-section .nav-wrapper .logo-hero h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin-left: 1rem;
-  color: #8686e6;
+  color: var(--font-color);
 }
 
 #hero-section .nav-wrapper .logo-hero h2 span {
-  color: #03c99d;
+  color: #C10224;
 }
 
 #hero-section .nav-wrapper .nav-bar-list {
