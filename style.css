@@ -1540,6 +1540,10 @@ position: relative;
   border-radius: 0 1rem 1rem 1rem;
 }
 
+#blog .blog-container .blog-box .blog-ds .blog-name:hover{
+  text-decoration: underline;
+}
+
 
 #blog .blog-container .blog-box .blog-ds span{
   display: inline-block;
