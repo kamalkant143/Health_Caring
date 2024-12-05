@@ -14,3 +14,4 @@ slider.addEventListener("click", function () {
     console.log(slideBox);
   });
 });
+
