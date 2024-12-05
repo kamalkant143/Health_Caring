@@ -1469,6 +1469,43 @@ header .search .search-glass {
   font-size: 1.2rem;
 }
 
+
+/* ====== Blog section styling ====== */
+
+#blog {
+  background-color: var(--background-color);
+  padding: 10rem 0;
+}
+
+#blog .blog-hd{
+ 
+  text-align: center;
+}
+
+#blog .blog-hd h3{
+  font-size: 1.8rem;
+  color: var(--main-color);
+}
+
+#blog .blog-hd h2{
+  margin-top: 1.2rem;
+  font-size: 4rem;
+  color: var(--font-color);
+}
+
+#blog .blog-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+#blog .blog-container .blog-box{
+  
+}
+
+
+
 /* =========== footer section stylindg ============ */
 
 footer .ft-container {
