@@ -1519,7 +1519,7 @@ header .search .search-glass {
 
 #blog .blog-container .blog-box:hover .image-wrap img {
   transform: scale(1.1);
-
+cursor: pointer;
 }
 
 
@@ -1561,12 +1561,33 @@ position: relative;
   font-size: 2rem;
   font-weight: 600;
   color: var(--main-color);
+  transition: all 0.3s;
+}
+
+#blog .blog-container .blog-box .blog-ds h2:hover{
+  color: var(--second-main-color);
+  cursor: pointer;
 }
 
 #blog .blog-container .blog-box .blog-ds p{
   font-size: 1.4rem ;
   color: var(--font-color-3);
   margin-block: 2rem;
+}
+
+#blog .blog-container .blog-box .blog-ds .btn5{
+  color: var(--font-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+#blog .blog-container .blog-box:hover .blog-ds .btn5{
+
+}
+
+#blog .blog-container .blog-box .blog-ds .btn5 i{
+  margin-left: 1rem;
 }
 
 /* =========== footer section stylindg ============ */
