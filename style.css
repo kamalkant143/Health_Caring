@@ -1498,10 +1498,16 @@ header .search .search-glass {
   justify-content: space-between;
   gap: 2rem;
   flex-wrap: wrap;
+  padding: 5rem 15rem;
 }
 
 #blog .blog-container .blog-box{
-  
+  width: 30%;
+}
+
+#blog .blog-container .blog-box img{
+ width: 100%;
+ border-radius: 1rem;
 }
 
 
