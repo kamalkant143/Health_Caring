@@ -165,12 +165,12 @@ header .search .search-glass {
 }
 
 #hero-section .nav-wrapper.fixed {
-  position:sticky; /* Change position on scroll */
+  position: sticky; /* Change position on scroll */
   top: 0;
   left: 0;
   /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); */
   z-index: 1000;
-  background-color:#8DD6DD;
+  background-color: #8dd6dd;
 }
 
 #hero-section .nav-wrapper.scroll-navBar {
@@ -1469,7 +1469,6 @@ header .search .search-glass {
   font-size: 1.2rem;
 }
 
-
 /* ====== Blog section styling ====== */
 
 #blog {
@@ -1477,23 +1476,22 @@ header .search .search-glass {
   padding: 10rem 0;
 }
 
-#blog .blog-hd{
- 
+#blog .blog-hd {
   text-align: center;
 }
 
-#blog .blog-hd h3{
+#blog .blog-hd h3 {
   font-size: 1.8rem;
   color: var(--main-color);
 }
 
-#blog .blog-hd h2{
+#blog .blog-hd h2 {
   margin-top: 1.2rem;
   font-size: 4rem;
   color: var(--font-color);
 }
 
-#blog .blog-container{
+#blog .blog-container {
   display: flex;
   justify-content: space-between;
   gap: 2rem;
@@ -1501,24 +1499,52 @@ header .search .search-glass {
   padding: 5rem 15rem;
 }
 
-#blog .blog-container .blog-box{
+#blog .blog-container .blog-box {
   width: 30%;
+  border-radius: 1rem;
+  position: relative;
+
+}
+
+#blog .blog-container .blog-box .image-wrap {
   overflow: hidden;
+  border-radius: 1rem;
+  width: 100%;
+  
 }
 
-#blog .blog-container .blog-box img{
- width: 100%;
- border-radius: 1rem;
- transition: all 0.3s;
- 
+#blog .blog-container .blog-box .image-wrap img {
+  width: 100%;
+  transition: all 0.3s;
 }
 
-#blog .blog-container .blog-box:hover img{
+#blog .blog-container .blog-box:hover .image-wrap img {
   transform: scale(1.1);
 
-
 }
 
+#blog .blog-container .blog-box .image-wrap a{
+  position: absolute;
+  background-color: var(--second-main-color);
+  color: var(--font-color-2);
+  font-size: 1.3rem;
+  padding: 0.5rem 0.8rem;
+  bottom: 16rem;
+  left: 3rem;
+  border-radius: 0 1rem 1rem 1rem;
+}
+
+#blog .blog-container .blog-box .blog-ds{
+padding: 0 3rem;
+}
+
+
+#blog .blog-container .blog-box .blog-ds span{
+  display: inline-block;
+  padding:  2rem 0;
+  font-size: 1.2rem;
+  
+}
 
 /* =========== footer section stylindg ============ */
 
