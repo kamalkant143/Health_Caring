@@ -1503,13 +1503,21 @@ header .search .search-glass {
 
 #blog .blog-container .blog-box{
   width: 30%;
+  overflow: hidden;
 }
 
 #blog .blog-container .blog-box img{
  width: 100%;
  border-radius: 1rem;
+ transition: all 0.3s;
+ 
 }
 
+#blog .blog-container .blog-box:hover img{
+  transform: scale(1.1);
+
+
+}
 
 
 /* =========== footer section stylindg ============ */
