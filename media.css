@@ -1,0 +1,51 @@
+@media screen and (min-width:1200px) and (max-width:1399px){
+    header {
+        padding: 1.5rem 5rem;
+    }
+
+    @media screen and (max-width:1293px){
+        header {
+           flex-direction: column;
+           gap: 1rem;
+        }
+
+        header .social-search {
+            display: none;
+            
+        }
+    }
+
+    #hero-section .all-contact-box {
+        left: 8rem;
+        right: 8rem;
+    }
+
+    #about-section .about-wrapp {
+        padding-inline: 10rem;
+    }
+
+    #about-section .about-reviews-container {
+        padding: 5rem 5rem 3rem 5rem;
+    }
+
+    #about-section .about-community h2 {
+        padding: 0 40rem 0 15rem;
+    }
+
+    #about-section .about-community .middle-box .about-comm {
+        margin: 5rem 5rem 0 50rem;
+    }
+
+    #about-section .about-community .middle-box .fa-shield-halved {
+        left: 40rem;
+    }
+
+    #about-section .services-container {
+        background-color: var(--second-main-color);
+        padding: 5rem 21rem;
+        display: flex;
+        /* justify-content: space-between; */
+        gap: 3rem;
+        flex-wrap: wrap;
+    }
+}
