@@ -157,7 +157,6 @@ header .search .search-glass {
 }
 
 #hero-section .nav-wrapper {
-  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -165,12 +164,14 @@ header .search .search-glass {
 }
 
 #hero-section .nav-wrapper.fixed {
-  position: sticky; /* Change position on scroll */
+  position: fixed; /* Change position on scroll */
   top: 0;
   left: 0;
-  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); */
+  right: 0;
   z-index: 1000;
   background-color: #8dd6dd;
+  /* padding: 1.8rem 10rem; */
+  transition: all 0.5s;
 }
 
 #hero-section .nav-wrapper.scroll-navBar {
@@ -187,7 +188,7 @@ header .search .search-glass {
 }
 
 #hero-section .nav-wrapper .logo-hero img {
-  width: 8rem;
+  width: 6rem;
 }
 
 #hero-section .nav-wrapper .logo-hero h2 {
