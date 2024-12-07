@@ -1,4 +1,4 @@
-@media screen and (min-width:1200px) and (max-width:1399px){
+@media screen  and (max-width:1399px){
     header {
         padding: 1.5rem 5rem;
     }
@@ -105,3 +105,55 @@
         padding: 5rem 5rem;
     }
 }
+
+@media screen and (max-width:1199px){
+    header .contact-header {
+        gap: 5rem;
+    }
+
+    #hero-section .main-hero-container {
+        margin: 2rem 2rem;
+    }
+
+    #hero-section .health-icon {
+        margin-left: 5rem;
+    }
+
+    #hero-section .all-contact-box {
+        left: 2rem;
+        right: 2rem;
+    }
+
+    #about-section .about-wrapp {
+        padding-inline: 5rem;
+    }
+    #about-section .about-reviews-container {
+        padding: 5rem 2rem 3rem 2rem;
+    }
+
+    #about-section .about-community h2 {
+        padding: 0 30rem 0 10rem;
+    }
+
+    #about-section .about-community .middle-box .about-comm {
+        margin: 5rem 5rem 0 30rem;
+    }
+
+    #about-section .about-community .middle-box .fa-shield-halved {
+        left: 20rem;
+    }
+
+    #our-doctor {
+        padding: 3rem;
+    }
+
+
+    #all-intro .medical-box .md-box {
+        margin: 0 10rem 0 5rem;
+    }
+
+    #all-intro .medical-box .health-care-btn {
+        width: 50rem;
+    }
+    
+ }
