@@ -107,12 +107,21 @@
 }
 
 @media screen and (max-width:1199px){
+
+   
     header .contact-header {
         gap: 5rem;
     }
 
     #hero-section .main-hero-container {
         margin: 2rem 2rem;
+    }
+
+
+    #hero-section .main-hero-container .hero-wrapper h1 {
+        font-size: 5rem;
+        margin-bottom: 2rem;
+
     }
 
     #hero-section .health-icon {
@@ -155,5 +164,69 @@
     #all-intro .medical-box .health-care-btn {
         width: 50rem;
     }
-    
+
+    #stories-dc .stories-wrapp-ct {
+        padding: 3rem;
+    }
+
+    #stories-dc .img-dt-container .img-box img {
+        display: inline-block;
+        width: 25rem;
+    }
+
+    #booking-help {
+        padding: 5rem 3rem;
+    }
+
+    footer .ft-container {
+        gap: 3rem;
+    }
+
+ }
+
+ @media screen and (max-width:1163px){
+    #hero-section .nav-wrapper {
+        padding: 1.8rem 5rem;
+    }
+
+    #about-section .about-reviews-container {
+        gap: 3rem;
+        flex-direction: column;
+    }
+
+    #about-section .services-container {
+        justify-content: center;
+    }
+
+    #all-intro .infro-details {
+        bottom: 0rem;
+        flex-wrap: wrap;
+        padding: 6rem 2rem;
+       
+    }
+
+    #all-intro .medical-box {
+     flex-direction: column;
+     gap: 3rem;
+    }
+
+    #all-intro .medical-box .health-care-btn {
+        width: 25rem;
+        text-align: center;
+    }
+
+    #booking-help {
+        flex-direction: column;
+    }
+
+    #booking-help .booking-contaner {
+        width: 60%;
+        border-radius: 2rem;
+        background-color: var(--background-color);
+    }
+
+    #booking-help .help-container {
+        width: 100%;
+        padding: 2rem 5rem;
+    }
  }
