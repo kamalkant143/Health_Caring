@@ -52,4 +52,24 @@
     #our-doctor .doctor-container {
         padding: 5rem 0rem;
     }
+
+    #all-intro .intro-container {
+        padding: 0 3rem;
+    }
+
+    #all-intro .infro-details {
+        padding-inline: 3rem;
+    }
+
+    #all-intro .infro-details .details-box {
+        padding: 2.5rem;
+    }
+
+    #all-intro .medical-box {
+        padding: 13rem 5rem 5rem;
+    }
+
+    #all-intro .medical-box .health-care-btn {
+        width: 70rem;
+    }
 }
