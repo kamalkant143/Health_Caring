@@ -240,3 +240,17 @@
         padding: 2rem 5rem;
     }
  }
+
+ @media screen and (max-width:1033px){
+    header {
+        display: none;
+    }
+    #about-section .about-wrapp {
+        padding-inline: 2rem;
+    }
+
+    #about-section .about-community h2 {
+        font-size: 3.5rem;
+        padding: 0 20rem 0 10rem;
+    }
+ }
