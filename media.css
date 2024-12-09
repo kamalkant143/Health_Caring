@@ -1,256 +1,286 @@
-@media screen  and (max-width:1399px){
+@media screen and (max-width: 1399px) {
+  header {
+    padding: 1.5rem 5rem;
+  }
+
+  @media screen and (max-width: 1293px) {
     header {
-        padding: 1.5rem 5rem;
+      flex-direction: column;
+      gap: 1rem;
     }
 
-    @media screen and (max-width:1293px){
-        header {
-           flex-direction: column;
-           gap: 1rem;
-        }
-
-        header .social-search {
-            display: none;
-            
-        }
+    header .social-search {
+      display: none;
     }
+  }
 
-    #hero-section .all-contact-box {
-        left: 5rem;
-        right: 5rem;
-    }
+  #hero-section .all-contact-box {
+    left: 5rem;
+    right: 5rem;
+  }
 
-    #hero-section .all-contact-box .container {
-        padding: 3rem;
-    }
+  #hero-section .all-contact-box .container {
+    padding: 3rem;
+  }
 
-    #about-section .about-wrapp {
-        padding-inline: 10rem;
-    }
+  #about-section .about-wrapp {
+    padding-inline: 10rem;
+  }
 
-    #about-section .about-reviews-container {
-        padding: 5rem 5rem 3rem 5rem;
-    }
+  #about-section .about-reviews-container {
+    padding: 5rem 5rem 3rem 5rem;
+  }
 
-    #about-section .about-community h2 {
-        padding: 0 40rem 0 15rem;
-    }
+  #about-section .about-community h2 {
+    padding: 0 40rem 0 15rem;
+  }
 
-    #about-section .about-community .middle-box .about-comm {
-        margin: 5rem 5rem 0 50rem;
-    }
+  #about-section .about-community .middle-box .about-comm {
+    margin: 5rem 5rem 0 50rem;
+  }
 
-    #about-section .about-community .middle-box .fa-shield-halved {
-        left: 40rem;
-    }
+  #about-section .about-community .middle-box .fa-shield-halved {
+    left: 40rem;
+  }
 
-    #about-section .services-container {
-        padding: 5rem 5rem;
-    }
+  #about-section .services-container {
+    padding: 5rem 5rem;
+  }
 
-    #about-section .more-info {
-        padding: 0rem 25rem;
-        padding-bottom: 8rem;
-        line-height: 2;
-    }
+  #about-section .more-info {
+    padding: 0rem 25rem;
+    padding-bottom: 8rem;
+    line-height: 2;
+  }
 
-    #about-section .about-medical-care .medical-care-container {
-        padding: 5rem 5rem;
-    }
+  #about-section .about-medical-care .medical-care-container {
+    padding: 5rem 5rem;
+  }
 
-    #our-doctor .doctor-container {
-        padding: 5rem 0rem;
-    }
+  #our-doctor .doctor-container {
+    padding: 5rem 0rem;
+  }
 
-    #all-intro .intro-container {
-        padding: 0 3rem;
-    }
+  #all-intro .intro-container {
+    padding: 0 3rem;
+  }
 
-    #all-intro .infro-details {
-        padding-inline: 3rem;
-    }
+  #all-intro .infro-details {
+    padding-inline: 3rem;
+  }
 
-    #all-intro .infro-details .details-box {
-        padding: 2.5rem;
-    }
+  #all-intro .infro-details .details-box {
+    padding: 2.5rem;
+  }
 
-    #all-intro .medical-box {
-        padding: 13rem 5rem 5rem;
-    }
+  #all-intro .medical-box {
+    padding: 13rem 5rem 5rem;
+  }
 
-    #all-intro .medical-box .health-care-btn {
-        width: 70rem;
-    }
+  #all-intro .medical-box .health-care-btn {
+    width: 70rem;
+  }
 
-    #stories-dc .stories-wrapp-ct {
-        padding: 5rem;
-    }
+  #stories-dc .stories-wrapp-ct {
+    padding: 5rem;
+  }
 
-    #booking-help {
-        padding: 5rem 5rem;
-    }
+  #booking-help {
+    padding: 5rem 5rem;
+  }
 
-    #booking-help .booking-contaner {
-        padding: 7rem 2rem;
-    }
+  #booking-help .booking-contaner {
+    padding: 7rem 2rem;
+  }
 
-    #blog .blog-container {
-        padding: 5rem 5rem;
-    }
+  #blog .blog-container {
+    padding: 5rem 5rem;
+  }
 
-    footer .ft-container {
-        padding: 7rem 4rem;
-    }
+  footer .ft-container {
+    padding: 7rem 4rem;
+  }
 
-    footer .ft-second-container {
-        padding: 5rem 5rem;
-    }
+  footer .ft-second-container {
+    padding: 5rem 5rem;
+  }
 }
 
-@media screen and (max-width:1199px){
+@media screen and (max-width: 1199px) {
+  header .contact-header {
+    gap: 5rem;
+  }
 
-   
-    header .contact-header {
-        gap: 5rem;
-    }
+  #hero-section .main-hero-container {
+    margin: 2rem 2rem;
+  }
 
-    #hero-section .main-hero-container {
-        margin: 2rem 2rem;
-    }
+  #hero-section .main-hero-container .hero-wrapper h1 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+  }
 
+  #hero-section .health-icon {
+    margin-left: 5rem;
+  }
 
-    #hero-section .main-hero-container .hero-wrapper h1 {
-        font-size: 5rem;
-        margin-bottom: 2rem;
+  #hero-section .all-contact-box {
+    left: 2rem;
+    right: 2rem;
+  }
 
-    }
+  #about-section .about-wrapp {
+    padding-inline: 5rem;
+  }
+  #about-section .about-reviews-container {
+    padding: 5rem 2rem 3rem 2rem;
+  }
 
-    #hero-section .health-icon {
-        margin-left: 5rem;
-    }
+  #about-section .about-community h2 {
+    padding: 0 30rem 0 10rem;
+  }
 
-    #hero-section .all-contact-box {
-        left: 2rem;
-        right: 2rem;
-    }
+  #about-section .about-community .middle-box .about-comm {
+    margin: 5rem 5rem 0 30rem;
+  }
 
-    #about-section .about-wrapp {
-        padding-inline: 5rem;
-    }
-    #about-section .about-reviews-container {
-        padding: 5rem 2rem 3rem 2rem;
-    }
+  #about-section .about-community .middle-box .fa-shield-halved {
+    left: 20rem;
+  }
 
-    #about-section .about-community h2 {
-        padding: 0 30rem 0 10rem;
-    }
+  #our-doctor {
+    padding: 3rem;
+  }
 
-    #about-section .about-community .middle-box .about-comm {
-        margin: 5rem 5rem 0 30rem;
-    }
+  #all-intro .medical-box .md-box {
+    margin: 0 10rem 0 5rem;
+  }
 
-    #about-section .about-community .middle-box .fa-shield-halved {
-        left: 20rem;
-    }
+  #all-intro .medical-box .health-care-btn {
+    width: 50rem;
+  }
 
-    #our-doctor {
-        padding: 3rem;
-    }
+  #stories-dc .stories-wrapp-ct {
+    padding: 3rem;
+  }
 
+  #stories-dc .img-dt-container .img-box img {
+    display: inline-block;
+    width: 25rem;
+  }
 
-    #all-intro .medical-box .md-box {
-        margin: 0 10rem 0 5rem;
-    }
+  #booking-help {
+    padding: 5rem 3rem;
+  }
 
-    #all-intro .medical-box .health-care-btn {
-        width: 50rem;
-    }
+  footer .ft-container {
+    gap: 3rem;
+  }
+}
 
-    #stories-dc .stories-wrapp-ct {
-        padding: 3rem;
-    }
+@media screen and (max-width: 1163px) {
+  #hero-section .nav-wrapper {
+    padding: 1.8rem 5rem;
+  }
 
-    #stories-dc .img-dt-container .img-box img {
-        display: inline-block;
-        width: 25rem;
-    }
+  #about-section .about-reviews-container {
+    gap: 3rem;
+    flex-direction: column;
+  }
 
-    #booking-help {
-        padding: 5rem 3rem;
-    }
+  #about-section .services-container {
+    justify-content: center;
+  }
 
-    footer .ft-container {
-        gap: 3rem;
-    }
+  #all-intro .infro-details {
+    bottom: 0rem;
+    flex-wrap: wrap;
+    padding: 6rem 2rem;
+  }
 
- }
+  #all-intro .medical-box {
+    flex-direction: column;
+    gap: 4rem;
+    padding: 5rem;
+  }
 
- @media screen and (max-width:1163px){
-    #hero-section .nav-wrapper {
-        padding: 1.8rem 5rem;
-    }
+  #all-intro .medical-box .health-care-btn {
+    width: 25rem;
+    text-align: center;
+  }
 
-    #about-section .about-reviews-container {
-        gap: 3rem;
-        flex-direction: column;
-    }
+  #stories-dc .stories-wrapp-ct .stories-left-ct h2 {
+    font-size: 3.5rem;
+  }
 
-    #about-section .services-container {
-        justify-content: center;
-    }
+  #stories-dc .stories-wrapp-ct .stories-right-ct p {
+    font-size: 2.3rem;
+  }
 
-    #all-intro .infro-details {
-        bottom: 0rem;
-        flex-wrap: wrap;
-        padding: 6rem 2rem;
-       
-    }
+  #booking-help {
+    flex-direction: column;
+  }
 
-    #all-intro .medical-box {
-     flex-direction: column;
-     gap: 4rem;
-     padding: 5rem;
+  #booking-help .booking-contaner {
+    width: 60%;
+  }
 
-    }
+  #booking-help .help-container {
+    width: 100%;
+    padding: 2rem 5rem;
+  }
+}
 
-    #all-intro .medical-box .health-care-btn {
-        width: 25rem;
-        text-align: center;
-    }
+@media screen and (max-width: 1033px) {
+  header {
+    display: none;
+  }
+  #about-section .about-wrapp {
+    padding-inline: 2rem;
+  }
 
-    #stories-dc .stories-wrapp-ct .stories-left-ct h2 {
-        font-size: 3.5rem;
-    }
+  #about-section .about-community h2 {
+    font-size: 3.5rem;
+    padding: 0 20rem 0 10rem;
+  }
 
-    #stories-dc .stories-wrapp-ct .stories-right-ct p {
-        font-size: 2.3rem;
-    }
+  #about-section .more-info {
+    padding: 0rem 15rem;
+    padding-bottom: 8rem;
+  }
 
-    #booking-help {
-        flex-direction: column;
-    }
+  #all-intro .intro-container {
+    padding: 0 2rem;
+  }
 
-    #booking-help .booking-contaner {
-        width: 60%;
-    }
+  #all-intro .intro-left h3 {
+    font-size: 3rem;
+  }
 
-    
-    #booking-help .help-container {
-        width: 100%;
-        padding: 2rem 5rem;
-    }
- }
+  #stories-dc .stories-wrapp-ct {
+    padding: 2rem;
+  }
 
- @media screen and (max-width:1033px){
-    header {
-        display: none;
-    }
-    #about-section .about-wrapp {
-        padding-inline: 2rem;
-    }
+  #stories-dc .stories-wrapp-ct .stories-right-ct .details-stories {
+    gap: 2rem;
+  }
 
-    #about-section .about-community h2 {
-        font-size: 3.5rem;
-        padding: 0 20rem 0 10rem;
-    }
- }
+  #stories-dc
+    .stories-wrapp-ct
+    .stories-right-ct
+    .details-stories
+    .dt-st
+    .name-dt
+    h3 {
+    font-size: 1.3rem;
+  }
+
+  #booking-help .help-container {
+    width: 100%;
+    padding: 2rem 3rem;
+}
+
+#stories-dc .img-dt-container .img-box img {
+    width: 22rem;
+}
+}
