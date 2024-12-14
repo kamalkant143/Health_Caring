@@ -388,7 +388,7 @@
     margin: 5rem 3rem 0 20rem;
   }
 
-  #our-doctor .doctor-container {
+  /* #our-doctor .doctor-container {
     flex-direction: column;
   }
 
@@ -404,6 +404,19 @@
 
   #our-doctor .doctor-container .od-details .box-down {
     padding: 3rem 0 0 0;
+  } */
+
+  #our-doctor .doctor-container .od-details .box-upper img {
+    width: 100%;
+    height: 30rem;
+  }
+
+  #our-doctor .doctor-container .od-details .box-down {
+    padding: 1rem;
+  }
+
+  #our-doctor {
+    padding: 2rem;
   }
 
   #all-intro .intro-container {
@@ -432,49 +445,46 @@
   }
 
   #all-intro .medical-box {
- 
     padding: 2rem;
-}
+  }
 
-#stories-dc .stories-wrapp-ct {
- flex-direction: column;
- padding: 5rem 2rem;
-}
+  #stories-dc .stories-wrapp-ct {
+    flex-direction: column;
+    padding: 5rem 2rem;
+  }
 
-#stories-dc .stories-wrapp-ct .stories-left-ct {
-  width: 100%;
-  text-align: start;
-}
+  #stories-dc .stories-wrapp-ct .stories-left-ct {
+    width: 100%;
+    text-align: start;
+  }
 
-#stories-dc .stories-wrapp-ct .stories-right-ct {
-  width: 100%;
-}
+  #stories-dc .stories-wrapp-ct .stories-right-ct {
+    width: 100%;
+  }
 
-#booking-help .booking-contaner {
-  width: 100%;
-}
+  #booking-help .booking-contaner {
+    width: 100%;
+  }
 
-#booking-help .booking-contaner .option {
+  #booking-help .booking-contaner .option {
+    flex-direction: column;
+    margin-block: 1rem;
+  }
 
-  flex-direction: column;
- margin-block: 1rem;
-}
+  #booking-help .booking-contaner .option .select-wrp {
+    width: 100%;
+  }
 
-#booking-help .booking-contaner .option .select-wrp {
-  width: 100%;
-  
-}
+  #booking-help .booking-contaner .option .comman1 {
+    width: 100%;
+  }
 
-#booking-help .booking-contaner .option .comman1 {
-  width: 100%;
-}
+  #booking-help .booking-contaner .option .wrap {
+    width: 100%;
+  }
 
-#booking-help .booking-contaner .option .wrap {
- width: 100%;
-}
-
-#booking-help .help-container {
-  width: 100%;
-  padding: 2rem 0rem;
-}
+  #booking-help .help-container {
+    width: 100%;
+    padding: 2rem 0rem;
+  }
 }
