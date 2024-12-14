@@ -538,7 +538,11 @@ header .search .search-glass {
   display: flex;
   justify-content: space-between;
   gap: 5rem;
-  overflow: hidden;
+  overflow-x: scroll;
+}
+
+#about-section .about-medical-care .medical-care-container .all-box-cover::-webkit-scrollbar{
+  display: none;
 }
 
 #about-section

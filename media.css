@@ -235,8 +235,39 @@
   header {
     display: none;
   }
+
+  #hero-section .nav-wrapper .nav-bar-list {
+    display: none;
+}
+
+#hero-section .all-contact-box {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 6rem;
+  left: 0;
+  right: 0;
+}
+
+#hero-section .all-contact-box .container {
+  width: 100%;
+  display: flex;
+  padding: 4rem;
+}
+
+#hero-section .all-contact-box .container:nth-child(1) {
+  border-top-left-radius: 0rem;
+  border-bottom-left-radius: 0rem;
+}
+
+#hero-section .all-contact-box .container:nth-child(3) {
+  border-top-right-radius: 0rem;
+  border-bottom-right-radius: 0rem;
+}
+
   #about-section .about-wrapp {
     padding-inline: 2rem;
+    margin-top: 70rem;
   }
 
   #about-section .about-community h2 {
@@ -283,4 +314,7 @@
 #stories-dc .img-dt-container .img-box img {
     width: 22rem;
 }
+
+
+
 }
