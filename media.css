@@ -362,4 +362,72 @@
   #about-section .about-wrapp .about-hospital .right-about {
     width: 100%;
   }
+
+  #about-section .bottom-about-container {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+
+  #about-section .bottom-about-container .bottom-inner-box {
+    width: 100%;
+  }
+
+  #about-section .bottom-about-container .about-img {
+    width: 100%;
+  }
+
+  #about-section .about-community h2 {
+    padding: 0 10rem 0 5rem;
+  }
+
+  #about-section .about-community .middle-box .fa-shield-halved {
+    left: 10rem;
+  }
+
+  #about-section .about-community .middle-box .about-comm {
+    margin: 5rem 3rem 0 20rem;
+  }
+
+  #our-doctor .doctor-container {
+    flex-direction: column;
+  }
+
+  #our-doctor .doctor-container .od-details {
+    width: 100%;
+    height: 100%;
+  }
+
+  #our-doctor .doctor-container .od-details .box-upper img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #our-doctor .doctor-container .od-details .box-down {
+    padding: 3rem 0 0 0;
+  }
+
+  #all-intro .intro-container {
+    flex-direction: column;
+  }
+
+  #all-intro .intro-left {
+    width: 100%;
+    padding: 3rem 0 0 0;
+  }
+
+  #all-intro .intro-right {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  #all-intro .intro-right p {
+    padding: 0;
+  }
+
+  #all-intro .intro-right .infro-box {
+    margin-top: 2rem;
+  }
+  #all-intro .infro-details {
+    justify-content: center;
+  }
 }
