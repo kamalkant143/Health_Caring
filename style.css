@@ -1295,6 +1295,11 @@ header .search .search-glass {
   align-items: center;
   margin-bottom: 10rem;
   width: 100%;
+  overflow-x: scroll;
+}
+
+#stories-dc .img-dt-container .img-box::-webkit-scrollbar{
+  display: none;
 }
 
 #stories-dc .img-dt-container .img-box img {
