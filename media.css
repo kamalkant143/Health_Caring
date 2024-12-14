@@ -341,4 +341,25 @@
   #hero-section .health-icon .icon h2 {
     font-size: 1.2rem;
   }
+
+  #about-section .about-wrapp h2 {
+    padding-left: 3rem;
+  }
+
+  #about-section .about-wrapp h2 br {
+    display: none;
+  }
+
+  #about-section .about-wrapp .about-hospital {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  #about-section .about-wrapp .about-hospital .left-about {
+    width: 100%;
+  }
+
+  #about-section .about-wrapp .about-hospital .right-about {
+    width: 100%;
+  }
 }
