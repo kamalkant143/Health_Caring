@@ -680,6 +680,22 @@ justify-content: flex-start;
 }
 }
 
-@media screen and (max-width: 505px) {
+@media screen and (max-width: 508px) {
+
+  #about-section .about-wrapp h2  br{
+    display: none;
+}
+  #about-section .more-info {
+    padding: 0rem 5rem;
+    padding-bottom: 8rem;
+}
+  #our-doctor h2  br{
+   display: none;
+}
+
+#our-doctor .doctor-container .od-details .box-upper {
+  width: 80%;
+  margin: 0 auto;
  
+}
 }
