@@ -711,6 +711,13 @@ justify-content: flex-start;
     align-items: center;
     gap: 2rem;
 }
+
+#our-doctor .doctor-container .od-details .box-down .od-wrap .read {
+  background-color: var(--second-main-color);
+  padding: 0.8rem 1.5rem;
+  border-radius: 50rem;
+  color: var(--font-color-2);
+}
 }
 
 @media screen and (max-width: 508px) {
@@ -761,6 +768,7 @@ footer .ft-second-container .sd-box {
 
 #hero-section .health-icon {
  flex-wrap: wrap;
+ gap: 4rem;
 }
 
 #hero-section .main-hero-container .hero-wrapper h1 {
@@ -802,6 +810,9 @@ x
   line-height: 1.8;
 }
 
+#about-section .about-medical-care h4 {
+  font-size: 1.5rem;
+}
 
 #about-section .about-medical-care h2 br{
   display: none;
