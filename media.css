@@ -689,6 +689,14 @@ justify-content: flex-start;
     padding: 0rem 5rem;
     padding-bottom: 8rem;
 }
+
+#about-section .about-medical-care h2  br{
+  display: none;
+}
+
+#about-section .about-community h2 {
+  font-size: 2.5rem;
+}
   #our-doctor h2  br{
    display: none;
 }
