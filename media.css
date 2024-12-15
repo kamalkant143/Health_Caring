@@ -559,4 +559,28 @@
 }
 
 @media screen and (max-width: 709px) {
+  #hero-section {
+    background-position: left;
+   
+}
+
+#hero-section .main-hero-container {
+  width: 100%;
+  margin: 0;
+ 
+}
+
+#hero-section .main-hero-container .hero-wrapper {
+  padding: 2rem;
+}
+
+#hero-section .health-icon {
+  width: 100%;
+ margin: 0;
+ padding:2rem ;
+}
+}
+
+@media screen and (max-width: 709px){
+  
 }
