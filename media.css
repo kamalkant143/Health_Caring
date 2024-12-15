@@ -561,65 +561,82 @@
 @media screen and (max-width: 709px) {
   #hero-section {
     background-position: left;
-   
+  }
+
+  #hero-section .main-hero-container {
+    width: 100%;
+    margin: 0;
+  }
+
+  #hero-section .main-hero-container .hero-wrapper {
+    padding: 2rem;
+  }
+
+  #hero-section .health-icon {
+    width: 100%;
+    margin: 0;
+    padding: 2rem;
+  }
 }
 
-#hero-section .main-hero-container {
-  width: 100%;
-  margin: 0;
- 
-}
-
-#hero-section .main-hero-container .hero-wrapper {
-  padding: 2rem;
-}
-
-#hero-section .health-icon {
-  width: 100%;
- margin: 0;
- padding:2rem ;
-}
-}
-
-@media screen and (max-width: 670px){
-  html{
+@media screen and (max-width: 670px) {
+  html {
     font-size: 60%;
   }
 
+  #about-section .about-wrapp h2 {
+    font-size: 3rem;
+   
+}
+
   #about-section .services-container .srv-box {
     width: 100%;
-}
+  }
 
-#about-section .about-community {
-  padding: 2rem;
-}
+  #about-section .about-community {
+    padding: 2rem;
+  }
 
-#about-section .about-community h2 {
-  font-size: 3rem;
-  padding: 0 2rem;
-}
+  #about-section .about-community h2 {
+    font-size: 3rem;
+    padding: 0 2rem;
+  }
 
+  #about-section .about-community .middle-box .about-comm {
+    margin: 5rem 2rem 0 7rem;
+  }
 
+  #about-section .about-community .middle-box .about-comm p {
+    font-size: 1.8rem;
+  }
 
-
-#about-section .about-community .middle-box .about-comm {
-  margin: 5rem 2rem 0 7rem;
-}
-
-#about-section .about-community .middle-box .about-comm p {
-  font-size: 1.8rem;
+  #about-section .about-medical-care h2 {
+    font-size: 3rem;
+    
 }
 
   #all-intro .infro-details {
     flex-direction: column;
+  }
+
+  #all-intro .infro-details .details-box {
+    width: 100%;
+  }
+
+  #our-doctor h2 {
+    font-size: 1.5rem;
+    
+}
 }
 
-#all-intro .infro-details .details-box {
-  width: 100%;
-  
-}
+@media screen and (max-width: 542px) {
+
+  #about-section .about-reviews-container h3 a {
+    word-wrap: break-word;
 }
 
-@media screen and (max-width: 601px){
-
+#about-section .about-reviews-container .about-rate-box {
+flex-direction: column;
+justify-content: flex-start;
+}
 }
