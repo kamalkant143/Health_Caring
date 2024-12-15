@@ -581,6 +581,45 @@
 }
 }
 
-@media screen and (max-width: 709px){
+@media screen and (max-width: 670px){
+  html{
+    font-size: 60%;
+  }
+
+  #about-section .services-container .srv-box {
+    width: 100%;
+}
+
+#about-section .about-community {
+  padding: 2rem;
+}
+
+#about-section .about-community h2 {
+  font-size: 3rem;
+  padding: 0 2rem;
+}
+
+
+
+
+#about-section .about-community .middle-box .about-comm {
+  margin: 5rem 2rem 0 7rem;
+}
+
+#about-section .about-community .middle-box .about-comm p {
+  font-size: 1.8rem;
+}
+
+  #all-intro .infro-details {
+    flex-direction: column;
+}
+
+#all-intro .infro-details .details-box {
+  width: 100%;
   
+}
+}
+
+@media screen and (max-width: 601px){
+
 }
