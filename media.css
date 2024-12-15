@@ -706,4 +706,13 @@ justify-content: flex-start;
   margin: 0 auto;
  
 }
+
+#booking-help .help-container h2 {
+  font-size: 3.5rem;
+}
+
+footer .ft-second-container .sd-box {
+  flex-direction: column;
+  gap: 2rem;
+}
 }
