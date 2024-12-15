@@ -716,3 +716,13 @@ footer .ft-second-container .sd-box {
   gap: 2rem;
 }
 }
+
+@media screen and (max-width: 401px){
+  #hero-section .nav-wrapper {
+    padding: 1.5rem 1rem;
+}
+
+#hero-section .nav-wrapper .logo-hero img {
+  width: 4.5rem;
+}
+}
