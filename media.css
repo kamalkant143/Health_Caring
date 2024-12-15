@@ -678,6 +678,39 @@ justify-content: flex-start;
   height: 10rem;
 
 }
+
+#our-doctor .doctor-container .od-details:hover .box-upper img {
+  transform: none;
+  border-radius: 0;
+}
+
+#our-doctor .doctor-container .od-details:hover {
+  box-shadow:none;
+}
+
+#our-doctor .doctor-container .od-details .box-down {
+  padding: 3rem 0 2rem 0;
+}
+
+#our-doctor .doctor-container .od-details .bottom-line {
+  position: absolute;
+  bottom: 0;
+  margin: 0 2rem;
+  width: 90%;
+  height: 0.2rem;
+  background-color: #03c99d;
+}
+
+#our-doctor
+  .doctor-container
+  .od-details
+  .box-down
+  .od-wrap
+  .doctor-media {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
 }
 
 @media screen and (max-width: 508px) {
@@ -724,5 +757,122 @@ footer .ft-second-container .sd-box {
 
 #hero-section .nav-wrapper .logo-hero img {
   width: 4.5rem;
+}
+
+#hero-section .health-icon {
+ flex-wrap: wrap;
+}
+
+#hero-section .main-hero-container .hero-wrapper h1 {
+  font-size: 4rem;
+}
+
+#hero-section .main-hero-container .hero-wrapper p {
+  font-size: 1.5rem;
+ 
+}
+
+#hero-section .all-contact-box .container {
+  padding: 2rem;
+}
+
+#about-section .about-wrapp {
+  margin-top: 60rem;
+}
+
+#about-section .about-wrapp h2 {
+  font-size: 2.5rem;
+}
+
+#about-section .about-wrapp .about-hospital .left-about .box1 {
+  padding-inline: 2rem;
+}
+
+#about-section .about-medical-care h2 {
+  font-size: 2.5rem;
+}
+
+
+
+
+
+#about-section .about-medical-care h2  br{
+  display: none;
+}
+
+#about-section .about-medical-care .medical-care-container {
+  padding: 5rem 2rem;
+}
+
+#about-section
+  .about-medical-care
+  .medical-care-container
+  .all-box-cover
+  .care-box {
+    background-color: var(--background-color);
+    width: 38rem;
+    /* padding: 3rem 5rem 0 5rem; */
+}
+
+#about-section .services-container {
+  padding: 5rem 2rem;
+}
+
+#about-section .about-community h2 {
+  font-size: 2.3rem;
+  padding: 0 0rem;
+}
+
+#about-section .about-community .middle-box .about-comm {
+  margin: 2rem 2rem 0 7rem;
+}
+
+#about-section .about-community .middle-box .about-comm p {
+  font-size: 1.5rem;
+}
+
+#about-section .more-info {
+  padding: 0rem 2rem;
+  padding-bottom: 5rem;
+}
+
+#all-intro .intro-right .infro-box {
+  flex-direction: column;
+  gap: 0;
+}
+
+#all-intro .medical-box .md-box {
+  padding: 1rem;
+  margin: 0;
+}
+
+
+
+#stories-dc .stories-wrapp-ct .stories-right-ct p {
+  font-size: 1.6rem;
+}
+
+#booking-help {
+  padding: 5rem 1rem;
+}
+
+#booking-help .help-container h2 {
+  font-size: 3rem;
+}
+
+#blog .blog-container .blog-box:hover .image-wrap img {
+  transform: none;
+}
+
+#blog .blog-container .blog-box .blog-ds .btn5{
+  background-color: var(--font-color);
+  color: var(--font-color-2);
+  padding: 1rem 1.8rem;
+  border-radius: 2rem;
+  
+}
+
+footer .ft-container {
+  padding: 7rem 2rem;
 }
 }
