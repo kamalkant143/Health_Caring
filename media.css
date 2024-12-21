@@ -873,6 +873,12 @@
     padding-bottom: 5rem;
   }
 
+
+  #about-section .bottom-about-container .bottom-inner-box .about-doctor {
+   
+    gap: 2rem;
+}
+
   #our-doctor h2 br {
     display: none;
   }
