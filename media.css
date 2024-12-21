@@ -236,6 +236,11 @@
     display: none;
   }
 
+  #hero-section {
+    background-position:70%;
+   
+}
+
   #hero-section .nav-wrapper .nav-bar-list {
     display: none;
   }
