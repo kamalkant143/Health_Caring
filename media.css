@@ -770,12 +770,18 @@
 
   }
 
+ 
+
   #hero-section .health-icon .icon .images {
     width: 9rem;
     height: 9rem;
 }
 #hero-section .health-icon .icon .images img {
   width: 4rem;
+}
+
+#hero-section .health-icon .icon .images.img1 {
+  margin-left: 0rem;
 }
 
   #hero-section .main-hero-container .hero-wrapper h1 {
