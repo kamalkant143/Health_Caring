@@ -576,7 +576,6 @@
     width: 100%;
     margin: 0;
     padding: 2rem;
-    justify-content: space-between;
   }
 }
 
@@ -761,6 +760,8 @@
   #hero-section .health-icon {
     flex-wrap: wrap;
     gap: 4rem;
+    justify-content: space-evenly;
+
   }
 
   #hero-section .main-hero-container .hero-wrapper h1 {
@@ -774,6 +775,8 @@
   #hero-section .all-contact-box .container {
     padding: 2rem;
   }
+
+
 
   #about-section .about-wrapp {
     margin-top: 60rem;
