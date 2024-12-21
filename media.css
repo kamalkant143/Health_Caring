@@ -237,9 +237,8 @@
   }
 
   #hero-section {
-    background-position:70%;
-   
-}
+    background-position: 70%;
+  }
 
   #hero-section .nav-wrapper .nav-bar-list {
     display: none;
@@ -767,22 +766,19 @@
     gap: 4rem;
     justify-content: space-between;
     padding: 0 5rem;
-
   }
-
- 
 
   #hero-section .health-icon .icon .images {
     width: 9rem;
     height: 9rem;
-}
-#hero-section .health-icon .icon .images img {
-  width: 4rem;
-}
+  }
+  #hero-section .health-icon .icon .images img {
+    width: 4rem;
+  }
 
-#hero-section .health-icon .icon .images.img1 {
-  margin-left: 0rem;
-}
+  #hero-section .health-icon .icon .images.img1 {
+    margin-left: 0rem;
+  }
 
   #hero-section .main-hero-container .hero-wrapper h1 {
     font-size: 4rem;
@@ -795,8 +791,6 @@
   #hero-section .all-contact-box .container {
     padding: 2rem;
   }
-
-
 
   #about-section .about-wrapp {
     margin-top: 60rem;
@@ -884,11 +878,9 @@
     padding-bottom: 5rem;
   }
 
-
   #about-section .bottom-about-container .bottom-inner-box .about-doctor {
-   
     gap: 2rem;
-}
+  }
 
   #our-doctor h2 br {
     display: none;

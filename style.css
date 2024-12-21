@@ -369,7 +369,6 @@ header .search .search-glass {
   background-color: #1ebaae;
   padding: 0.8rem;
   border-radius: 50rem;
-  
 }
 
 #hero-section .all-contact-box .container .right-box h3 i:hover {
@@ -542,7 +541,10 @@ header .search .search-glass {
   overflow-x: scroll;
 }
 
-#about-section .about-medical-care .medical-care-container .all-box-cover::-webkit-scrollbar{
+#about-section
+  .about-medical-care
+  .medical-care-container
+  .all-box-cover::-webkit-scrollbar {
   display: none;
 }
 
@@ -1299,7 +1301,7 @@ header .search .search-glass {
   overflow-x: scroll;
 }
 
-#stories-dc .img-dt-container .img-box::-webkit-scrollbar{
+#stories-dc .img-dt-container .img-box::-webkit-scrollbar {
   display: none;
 }
 
@@ -1513,14 +1515,12 @@ header .search .search-glass {
 #blog .blog-container .blog-box {
   width: 30%;
   border-radius: 1rem;
-
 }
 
 #blog .blog-container .blog-box .image-wrap {
   overflow: hidden;
   border-radius: 1rem;
   width: 100%;
-  
 }
 
 #blog .blog-container .blog-box .image-wrap img {
@@ -1530,17 +1530,15 @@ header .search .search-glass {
 
 #blog .blog-container .blog-box:hover .image-wrap img {
   transform: scale(1.1);
-cursor: pointer;
+  cursor: pointer;
 }
 
-
-
-#blog .blog-container .blog-box .blog-ds{
-padding: 0 3rem 5rem 0;
-position: relative;
+#blog .blog-container .blog-box .blog-ds {
+  padding: 0 3rem 5rem 0;
+  position: relative;
 }
 
-#blog .blog-container .blog-box .blog-ds .blog-name{
+#blog .blog-container .blog-box .blog-ds .blog-name {
   position: absolute;
   background-color: var(--second-main-color);
   color: var(--font-color-2);
@@ -1551,61 +1549,57 @@ position: relative;
   border-radius: 0 1rem 1rem 1rem;
 }
 
-#blog .blog-container .blog-box .blog-ds .blog-name:hover{
+#blog .blog-container .blog-box .blog-ds .blog-name:hover {
   text-decoration: underline;
 }
 
-
-#blog .blog-container .blog-box .blog-ds span{
+#blog .blog-container .blog-box .blog-ds span {
   display: inline-block;
-  margin:  3rem 0 2rem 0;
+  margin: 3rem 0 2rem 0;
   font-size: 1.2rem;
   padding-right: 1rem;
   color: var(--main-color);
-  
 }
 
-#blog .blog-container .blog-box .blog-ds .date-bl{
+#blog .blog-container .blog-box .blog-ds .date-bl {
   display: inline-block;
-  padding-left:1rem;
-  border-left: 1px solid var(--font-color-3) ;
+  padding-left: 1rem;
+  border-left: 1px solid var(--font-color-3);
 }
 
-#blog .blog-container .blog-box .blog-ds h2{
+#blog .blog-container .blog-box .blog-ds h2 {
   font-size: 2rem;
   font-weight: 600;
   color: var(--main-color);
   transition: all 0.3s;
 }
 
-#blog .blog-container .blog-box .blog-ds h2:hover{
+#blog .blog-container .blog-box .blog-ds h2:hover {
   color: var(--second-main-color);
   cursor: pointer;
 }
 
-#blog .blog-container .blog-box .blog-ds p{
-  font-size: 1.4rem ;
+#blog .blog-container .blog-box .blog-ds p {
+  font-size: 1.4rem;
   color: var(--font-color-3);
   margin: 2rem 0 3rem 0;
-  
 }
 
-#blog .blog-container .blog-box .blog-ds .btn5{
+#blog .blog-container .blog-box .blog-ds .btn5 {
   color: var(--font-color);
   font-size: 1.5rem;
   font-weight: 600;
   transition: all 0.3s;
 }
 
-#blog .blog-container .blog-box:hover .blog-ds .btn5{
+#blog .blog-container .blog-box:hover .blog-ds .btn5 {
   background-color: var(--font-color);
   color: var(--font-color-2);
   padding: 1rem 1.8rem;
   border-radius: 2rem;
-  
 }
 
-#blog .blog-container .blog-box .blog-ds .btn5 i{
+#blog .blog-container .blog-box .blog-ds .btn5 i {
   margin-left: 1rem;
 }
 
