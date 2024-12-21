@@ -760,9 +760,17 @@
   #hero-section .health-icon {
     flex-wrap: wrap;
     gap: 4rem;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
   }
+
+  #hero-section .health-icon .icon .images {
+    width: 9rem;
+    height: 9rem;
+}
+#hero-section .health-icon .icon .images img {
+  width: 4rem;
+}
 
   #hero-section .main-hero-container .hero-wrapper h1 {
     font-size: 4rem;
