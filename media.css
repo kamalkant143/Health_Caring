@@ -587,8 +587,7 @@
 
   #about-section .about-wrapp h2 {
     font-size: 3rem;
-   
-}
+  }
 
   #about-section .services-container .srv-box {
     width: 100%;
@@ -613,8 +612,7 @@
 
   #about-section .about-medical-care h2 {
     font-size: 3rem;
-    
-}
+  }
 
   #all-intro .infro-details {
     flex-direction: column;
@@ -626,283 +624,285 @@
 
   #our-doctor h2 {
     font-size: 1.5rem;
-    
-}
+  }
 }
 
 @media screen and (max-width: 540px) {
-
   #hero-section .nav-wrapper {
     padding: 1.8rem 2rem;
-}
+  }
 
   #about-section .about-reviews-container h3 {
     font-size: 1.8rem;
     line-height: 1.8;
-}
+  }
 
   #about-section .about-reviews-container h3 a {
     word-wrap: break-word;
-}
+  }
 
-#about-section .about-reviews-container .about-rate-box {
-flex-direction: column;
-justify-content: flex-start;
-}
+  #about-section .about-reviews-container .about-rate-box {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 
-#all-intro .medical-box {
-  padding: 2rem 0;
-}
+  #all-intro .medical-box {
+    padding: 2rem 0;
+  }
 
-#all-intro .medical-box .md-box h2 {
-  font-size: 2.2rem;
-}
+  #all-intro .medical-box .md-box h2 {
+    font-size: 2.2rem;
+  }
 
-#stories-dc .stories-wrapp-ct .stories-right-ct p {
-  font-size: 2rem;
-}
+  #stories-dc .stories-wrapp-ct .stories-right-ct p {
+    font-size: 2rem;
+  }
 
-#stories-dc .stories-wrapp-ct .stories-right-ct .details-stories {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  #stories-dc .stories-wrapp-ct .stories-right-ct .details-stories {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-#stories-dc .stories-wrapp-ct .stories-right-ct .details-stories .dt-st {
-  display: initial;
-  text-align: center;
+  #stories-dc .stories-wrapp-ct .stories-right-ct .details-stories .dt-st {
+    display: initial;
+    text-align: center;
+  }
 
-}
+  #stories-dc .stories-wrapp-ct .stories-right-ct .details-stories .dt-st img {
+    width: 10rem;
+    height: 10rem;
+  }
 
-#stories-dc .stories-wrapp-ct .stories-right-ct .details-stories .dt-st img {
-  width: 10rem;
-  height: 10rem;
+  #our-doctor .doctor-container .od-details:hover .box-upper img {
+    transform: none;
+    border-radius: 0;
+  }
 
-}
+  #our-doctor .doctor-container .od-details:hover {
+    box-shadow: none;
+  }
 
-#our-doctor .doctor-container .od-details:hover .box-upper img {
-  transform: none;
-  border-radius: 0;
-}
+  #our-doctor .doctor-container .od-details .box-down {
+    padding: 3rem 0 2rem 0;
+  }
 
-#our-doctor .doctor-container .od-details:hover {
-  box-shadow:none;
-}
+  #our-doctor .doctor-container .od-details .bottom-line {
+    position: absolute;
+    bottom: 0;
+    margin: 0 2rem;
+    width: 90%;
+    height: 0.2rem;
+    background-color: #03c99d;
+  }
 
-#our-doctor .doctor-container .od-details .box-down {
-  padding: 3rem 0 2rem 0;
-}
-
-#our-doctor .doctor-container .od-details .bottom-line {
-  position: absolute;
-  bottom: 0;
-  margin: 0 2rem;
-  width: 90%;
-  height: 0.2rem;
-  background-color: #03c99d;
-}
-
-#our-doctor
-  .doctor-container
-  .od-details
-  .box-down
-  .od-wrap
-  .doctor-media {
+  #our-doctor .doctor-container .od-details .box-down .od-wrap .doctor-media {
     display: flex;
     align-items: center;
     gap: 2rem;
-}
+  }
 
-#our-doctor .doctor-container .od-details .box-down .od-wrap .read {
-  background-color: var(--second-main-color);
-  padding: 0.8rem 1.5rem;
-  border-radius: 50rem;
-  color: var(--font-color-2);
-}
+  #our-doctor .doctor-container .od-details .box-down .od-wrap .read {
+    background-color: var(--second-main-color);
+    padding: 0.8rem 1.5rem;
+    border-radius: 50rem;
+    color: var(--font-color-2);
+  }
 }
 
 @media screen and (max-width: 508px) {
-
-  #about-section .about-wrapp h2  br{
+  #about-section .about-wrapp h2 br {
     display: none;
-}
+  }
   #about-section .more-info {
     padding: 0rem 5rem;
     padding-bottom: 8rem;
+  }
+
+  #about-section .about-medical-care h2 br {
+    display: none;
+  }
+
+  #about-section .about-community h2 {
+    font-size: 2.5rem;
+  }
+
+  #about-section .about-wrapp .about-hospital .left-about .box1 {
+    padding-inline: 1rem;
+  }
+  #our-doctor h2 br {
+    display: none;
+  }
+
+  #our-doctor .doctor-container .od-details .box-upper {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #booking-help .help-container h2 {
+    font-size: 3.5rem;
+  }
+
+  footer .ft-second-container .sd-box {
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
 
-#about-section .about-medical-care h2  br{
-  display: none;
-}
-
-#about-section .about-community h2 {
-  font-size: 2.5rem;
-}
-  #our-doctor h2  br{
-   display: none;
-}
-
-#our-doctor .doctor-container .od-details .box-upper {
-  width: 80%;
-  margin: 0 auto;
- 
-}
-
-#booking-help .help-container h2 {
-  font-size: 3.5rem;
-}
-
-footer .ft-second-container .sd-box {
-  flex-direction: column;
-  gap: 2rem;
-}
-}
-
-@media screen and (max-width: 404px){
+@media screen and (max-width: 404px) {
   #hero-section .nav-wrapper {
     padding: 1.5rem 1rem;
-}
+  }
 
-#hero-section .nav-wrapper .logo-hero img {
-  width: 4.5rem;
-}
+  #hero-section .nav-wrapper .logo-hero img {
+    width: 4.5rem;
+  }
 
-#hero-section .health-icon {
- flex-wrap: wrap;
- gap: 4rem;
-}
+  #hero-section .health-icon {
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
 
-#hero-section .main-hero-container .hero-wrapper h1 {
-  font-size: 4rem;
-}
+  #hero-section .main-hero-container .hero-wrapper h1 {
+    font-size: 4rem;
+  }
 
-#hero-section .main-hero-container .hero-wrapper p {
-  font-size: 1.5rem;
- 
-}
+  #hero-section .main-hero-container .hero-wrapper p {
+    font-size: 1.5rem;
+  }
 
-#hero-section .all-contact-box .container {
-  padding: 2rem;
-}
+  #hero-section .all-contact-box .container {
+    padding: 2rem;
+  }
 
-#about-section .about-wrapp {
-  margin-top: 60rem;
-}
+  #about-section .about-wrapp {
+    margin-top: 60rem;
+  }
 
-#about-section .about-wrapp h2 {
-  font-size: 2.5rem;
-}
-x
+  #about-section .about-wrapp h2 {
+    font-size: 2.5rem;
+    padding-left: 1rem;
+  }
 
+  #about-section .about-wrapp h2 br {
+    display: none;
+  }
 
-#about-section .about-wrapp .about-hospital .left-about .box1 {
-  padding-inline: 1rem;
-}
+  #about-section .about-wrapp .about-hospital .left-about .box1 {
+    padding-inline: 1rem;
+  }
 
-#about-section .about-medical-care h2 {
-  font-size: 2.2rem;
-}
+  #about-section .about-medical-care {
+    padding-top: 5rem;
+  }
+  #about-section .about-medical-care h2 {
+    font-size: 2.2rem;
+  }
 
+  #about-section .about-medical-care h2 br {
+    display: none;
+  }
 
+  #about-section .about-reviews-container h3 {
+    font-size: 1.5rem;
+    line-height: 1.8;
+  }
 
+  #about-section .about-medical-care h4 {
+    font-size: 1.5rem;
+  }
 
-#about-section .about-reviews-container h3 {
-  font-size: 1.5rem;
-  line-height: 1.8;
-}
+  #about-section .about-medical-care h2 br {
+    display: none;
+  }
 
-#about-section .about-medical-care h4 {
-  font-size: 1.5rem;
-}
+  #about-section .about-medical-care .medical-care-container {
+    padding: 5rem 2rem;
+  }
 
-#about-section .about-medical-care h2 br{
-  display: none;
-}
-
-#about-section .about-medical-care .medical-care-container {
-  padding: 5rem 2rem;
-}
-
-#about-section
-  .about-medical-care
-  .medical-care-container
-  .all-box-cover
-  .care-box {
+  #about-section
+    .about-medical-care
+    .medical-care-container
+    .all-box-cover
+    .care-box {
     background-color: var(--background-color);
     width: 38rem;
     /* padding: 3rem 5rem 0 5rem; */
-}
+  }
 
-#about-section .services-container {
-  padding: 5rem 2rem;
-}
+  #about-section .services-container {
+    padding: 5rem 2rem;
+  }
 
-#about-section .about-community h2 {
-  font-size: 2.3rem;
-  padding: 0 0rem;
-}
+  #about-section .about-community h2 {
+    font-size: 2.3rem;
+    padding: 0 0rem;
+  }
 
-#about-section .about-community .middle-box .about-comm {
-  margin: 2rem 0rem 0 0rem;
-}
+  #about-section .about-community .middle-box .about-comm {
+    margin: 2rem 0rem 0 0rem;
+  }
 
-#about-section .about-community .middle-box .fa-shield-halved {
-  position: absolute;
-  left: 10rem;
-  font-size: 10rem;
-  z-index: 0;
-}
+  #about-section .about-community .middle-box .fa-shield-halved {
+    position: absolute;
+    left: 10rem;
+    font-size: 10rem;
+    z-index: 0;
+  }
 
-#about-section .about-community .middle-box .about-comm p {
-  position: relative;
-  font-size: 1.5rem;
-  z-index: 5;
-}
+  #about-section .about-community .middle-box .about-comm p {
+    position: relative;
+    font-size: 1.5rem;
+    z-index: 5;
+  }
 
+  #about-section .more-info {
+    padding: 0rem 2rem;
+    padding-bottom: 5rem;
+  }
 
+  #our-doctor h2 br {
+    display: none;
+  }
 
-#about-section .more-info {
-  padding: 0rem 2rem;
-  padding-bottom: 5rem;
-}
+  #all-intro .intro-right .infro-box {
+    flex-direction: column;
+    gap: 0;
+  }
 
-#all-intro .intro-right .infro-box {
-  flex-direction: column;
-  gap: 0;
-}
+  #all-intro .intro-left h3 {
+    font-size: 2.5rem;
+  }
 
-#all-intro .medical-box .md-box {
-  padding: 1rem;
-  margin: 0;
-}
+  #all-intro .medical-box .md-box {
+    padding: 1rem;
+    margin: 0;
+  }
 
+  #stories-dc .stories-wrapp-ct .stories-right-ct p {
+    font-size: 1.6rem;
+  }
 
+  #booking-help {
+    padding: 5rem 1rem;
+  }
 
-#stories-dc .stories-wrapp-ct .stories-right-ct p {
-  font-size: 1.6rem;
-}
+  #booking-help .help-container h2 {
+    font-size: 3rem;
+  }
 
-#booking-help {
-  padding: 5rem 1rem;
-}
+  #blog .blog-container .blog-box:hover .image-wrap img {
+    transform: none;
+  }
 
-#booking-help .help-container h2 {
-  font-size: 3rem;
-}
+  #blog .blog-container .blog-box .blog-ds .btn5 {
+    background-color: var(--font-color);
+    color: var(--font-color-2);
+    padding: 1rem 1.8rem;
+    border-radius: 2rem;
+  }
 
-#blog .blog-container .blog-box:hover .image-wrap img {
-  transform: none;
-}
-
-#blog .blog-container .blog-box .blog-ds .btn5{
-  background-color: var(--font-color);
-  color: var(--font-color-2);
-  padding: 1rem 1.8rem;
-  border-radius: 2rem;
-  
-}
-
-footer .ft-container {
-  padding: 7rem 2rem;
-}
+  footer .ft-container {
+    padding: 7rem 2rem;
+  }
 }
