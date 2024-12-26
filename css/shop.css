@@ -1,5 +1,8 @@
 #container-shop{
-    background-color: var( --second-main-color);
+    background-image: url(../images/shop-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     padding-block: 8rem;
 }
