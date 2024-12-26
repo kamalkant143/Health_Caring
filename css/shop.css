@@ -1,0 +1,21 @@
+#container-shop{
+    background-color: var( --second-main-color);
+    text-align: center;
+    padding-block: 8rem;
+}
+
+#container-shop h2{
+ font-size: 5rem;
+ color: var( --font-color);
+}
+
+#container-shop a{
+    color: var();
+    display: inline-block;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+#container-shop a i{
+    margin-right: 1rem;
+}
