@@ -147,7 +147,7 @@ header .search .search-glass {
 
 /* ======  nav bar styling ====== */
 #hero-section {
-  background-image: url("images/hero-section-image.jpg");
+  background-image: url("../images/hero-section-image.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
