@@ -41,7 +41,14 @@
     max-width: 250px;
     padding: 2rem;
     border: 2px solid var(--second-main-color);
-    /* background-color: #C62300; */
+    transition: all 0.3s;
+    background: rgba(112, 9, 9, 0.1);
+    /* backdrop-filter: blur(20px); */
+}
+
+#product-container .p-box:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
 }
 
 #product-container .p-box .p-img{
@@ -55,4 +62,6 @@
 
 #product-container .p-box .p-img img{
     width: 100%;
+    filter: drop-shadow(2px 2px 20px rgba(0, 0, 0, 0.22));
+
 }
