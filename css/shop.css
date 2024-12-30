@@ -1,106 +1,113 @@
-#container-shop{
-    background-image: url(../images/shop-banner.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    padding-block: 8rem;
+#container-shop {
+  background-image: url(../images/shop-banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-block: 8rem;
 }
 
-#container-shop h2{
- font-size: 5rem;
- color: var( --font-color);
+#container-shop h2 {
+  font-size: 5rem;
+  color: var(--font-color);
 }
 
-#container-shop a{
-    color: #C62300;
-    display: inline-block;
-    margin-top: 3rem;
-    font-size: 2rem;
-    font-weight: 500;
+#container-shop a {
+  color: #c62300;
+  display: inline-block;
+  margin-top: 3rem;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
-#container-shop a:hover{
-    color: var( --font-color);
-
+#container-shop a:hover {
+  color: var(--font-color);
 }
 
-#container-shop a i{
-    margin-right: 1rem;
+#container-shop a i {
+  margin-right: 1rem;
 }
 
-#product-container{
-    padding: 5rem;
+#product-container {
+  padding: 5rem;
 }
 
-#product-container .p-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 250px;
-    padding: 2rem;
-    border: 2px solid var(--second-main-color);
-    transition: all 0.3s;
-    background-color: #D1D8DC;
-    /* backdrop-filter: blur(20px); */
-    transition: all 0.3s;
-    position: relative;
+#product-container .p-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 250px;
+  padding: 2rem;
+  border: 2px solid var(--second-main-color);
+  transition: all 0.3s;
+  background-color: #d1d8dc;
+  /* backdrop-filter: blur(20px); */
+  transition: all 0.3s;
+  position: relative;
 }
 
-/* #product-container .p-box::before{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    backdrop-filter: blur(2px);
-} */
-
-
-
-#product-container .p-box:hover{
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-
+#product-container .p-box:hover::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  backdrop-filter: blur(3px);
 }
 
-#product-container .p-box .p-img{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    /* background-color: aqua; */
+#product-container .p-box:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-#product-container .p-box .p-img img{
-    width: 100%;
-    /* filter: drop-shadow(2px 2px 20px rgba(0, 0, 0, 0.22)); */
-
+#product-container .p-box .p-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* background-color: aqua; */
 }
 
-#product-container .p-box .p-details{
-    margin-top: 1.2rem;
-    text-align: center;
-    /* background-color: #C62300; */
+#product-container .p-box .p-img img {
+  width: 100%;
+  /* filter: drop-shadow(2px 2px 20px rgba(0, 0, 0, 0.22)); */
 }
 
-#product-container .p-box .p-details h3{
-    font-size: 2rem;
-    font-weight: 600;
-    color: var(--font-color);
+#product-container .p-box .p-details {
+  margin-top: 1.2rem;
+  text-align: center;
+  /* background-color: #C62300; */
 }
 
-#product-container .p-box .p-details p{
-    color: var();
-    font-size: 1.8rem;
+#product-container .p-box .p-details h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--font-color);
 }
 
-#product-container .p-box .addBtn{
+#product-container .p-box .p-details p {
+  color: var();
+  font-size: 1.8rem;
+}
+
+#product-container .p-box .addBtn {
+  position: absolute;
   background-color: var(--font-color);
-  color: var( --font-color-2);
+  color: var(--font-color-2);
   padding: 1rem 1.5rem;
   text-transform: capitalize;
   font-size: 1.5rem;
   font-weight: 500;
+  display: none;
+  transition: all 0.3s;
+}
+
+#product-container .p-box .addBtn:hover {
+  background-color: #c62300;
+}
+
+#product-container .p-box:hover .addBtn {
+  display: block;
 }
