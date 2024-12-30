@@ -28,8 +28,17 @@
   margin-right: 1rem;
 }
 
-#product-container {
-  padding: 5rem;
+#product-container .search-p{
+    
+  
+}
+
+#product-container .all-p-wrapp{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3rem;
+  padding: 10rem 20rem;
 }
 
 #product-container .p-box {
@@ -42,7 +51,6 @@
   border: 2px solid var(--second-main-color);
   transition: all 0.3s;
   background-color: #d1d8dc;
-  /* backdrop-filter: blur(20px); */
   transition: all 0.3s;
   position: relative;
 }
