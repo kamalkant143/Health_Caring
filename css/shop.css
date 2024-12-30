@@ -87,7 +87,7 @@
   justify-content: space-between;
   align-items: center;
   max-width: 250px;
-  padding: 2rem;
+  /* padding: 2rem; */
   border: 2px solid var(--second-main-color);
   transition: all 0.3s;
   background-color: #d1d8dc;
@@ -111,10 +111,11 @@
 
 #product-container .p-box .p-img {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   width: 80%;
+  padding-top: 3rem;
 }
 
 #product-container .p-box .p-img img {
