@@ -240,8 +240,20 @@
     background-position: 70%;
   }
 
+  #hero-section .ham-box .hemburgar {
+    display: initial;
+  }
+ 
+
   #hero-section .nav-wrapper .nav-bar-list {
-    display: none;
+    width: 30rem;
+    height: 100%;
+    position:fixed;
+    left: 0;
+    top: 8rem;
+    flex-direction: column;
+    background-color:#8DD6DD;
+    padding: 5rem 8rem 0 ;
   }
 
   #hero-section .all-contact-box {

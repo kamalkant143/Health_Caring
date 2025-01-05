@@ -57,12 +57,17 @@ body {
   background-color: var(--font-color);
 }
 
-#hero-section .hemburgar img{
-  width: 2rem;
-}
-
 /* ==== hamburgar styling===== */
 
+
+#hero-section .ham-box .hemburgar {
+  display: none;
+}
+
+#hero-section .ham-box .hemburgar  img{
+  width: 3.5rem;
+  color: var(--font-color);
+}
 
 
 /* ===== header styling ===== */
@@ -229,7 +234,7 @@ header .search .search-glass {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 #hero-section .nav-wrapper .btn.apm-btn {
