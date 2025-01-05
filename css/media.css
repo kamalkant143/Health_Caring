@@ -254,6 +254,13 @@
     flex-direction: column;
     background-color:#8DD6DD;
     padding: 5rem 8rem 0 ;
+    transition: all 0.3s;
+    transform: translateX(-30rem);
+  }
+
+  #hero-section .nav-wrapper .nav-bar-list.navout{
+    transform: translateX(0rem);
+
   }
 
   #hero-section .all-contact-box {
