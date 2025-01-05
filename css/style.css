@@ -57,6 +57,14 @@ body {
   background-color: var(--font-color);
 }
 
+#hero-section .hemburgar img{
+  width: 2rem;
+}
+
+/* ==== hamburgar styling===== */
+
+
+
 /* ===== header styling ===== */
 
 header {
@@ -215,6 +223,13 @@ header .search .search-glass {
 
 #hero-section .nav-wrapper .nav-bar-list a:hover {
   color: var(--main-color);
+}
+
+#hero-section .nav-wrapper .ham-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 #hero-section .nav-wrapper .btn.apm-btn {
