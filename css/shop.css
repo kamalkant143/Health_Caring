@@ -75,7 +75,7 @@
 
 #product-container .all-p-wrapp {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 3rem;
   padding: 10rem 20rem;
