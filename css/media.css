@@ -256,6 +256,7 @@
     padding: 5rem 8rem 0 ;
     transition: all 0.3s;
     transform: translateX(-30rem);
+    z-index: 100;
   }
 
   #hero-section .nav-wrapper .nav-bar-list.navout{
