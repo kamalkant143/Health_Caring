@@ -775,9 +775,9 @@
 }
 
 @media screen and (max-width: 404px) {
-  #hero-section .nav-wrapper {
+  /* #hero-section .nav-wrapper {
     padding: 1.5rem 1rem;
-  }
+  } */
 
   #hero-section .nav-wrapper .logo-hero img {
     width: 4.5rem;
