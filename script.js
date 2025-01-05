@@ -13,3 +13,8 @@ window.addEventListener("scroll",()=>{
 hamBurgar.addEventListener("click",()=>{
   navbarList.classList.toggle("navout")
 })
+
+window.addEventListener("scroll" ,()=>{
+  navbarList.classList.remove("navout")
+   
+})

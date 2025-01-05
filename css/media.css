@@ -734,6 +734,11 @@
 }
 
 @media screen and (max-width: 508px) {
+
+  #hero-section .apm-btn{
+    display: none;
+  }
+  
   #about-section .about-wrapp h2 br {
     display: none;
   }
