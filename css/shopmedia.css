@@ -19,6 +19,12 @@
   #container-shop {
     padding-block: 5rem;
   }
+ 
+
+  #product-container .search-p img {
+    width: 6rem;
+}
+
   #product-container .all-p-wrapp {
     padding: 8rem 2rem;
   }
@@ -59,7 +65,15 @@
     font-size: 1.8rem;
   }
 
+  #product-container .search-p {
+    padding: 1.7rem 2rem;
+}
+
   #product-container .input-wrap-p .input-p input {
     width: 20rem;
   }
+
+  #product-container .all-p-wrapp {
+    padding: 5rem 2rem;
+}
 }
