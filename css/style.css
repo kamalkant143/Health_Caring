@@ -1789,7 +1789,8 @@ footer .ft-second-container .sd-box a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  backdrop-filter: blur(3px);
+  background: rgba(255, 255, 255, 0.444);
+  backdrop-filter: blur(2px);
   position: fixed;
   top:0;
 z-index: 2000;
@@ -1803,4 +1804,22 @@ z-index: 2000;
   width: 30%;
   height: 80%;
   background-color:var(--background-color);
+  position: relative;
+}
+
+#appointment-popup .ap-wrapp .fa-xmark{
+  position: absolute;
+  top: 1rem;
+  right: 1.8rem;
+  font-size: 3rem;
+  color: var(--font-color);
+  cursor: pointer;
+}
+
+#appointment-popup .ap-wrapp .fa-xmark:hover{
+  color: #c62300;
+}
+
+body.no-scroll{
+  overflow: hidden;
 }
