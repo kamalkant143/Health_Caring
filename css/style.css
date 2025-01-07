@@ -1779,3 +1779,28 @@ footer .ft-second-container .sd-box a {
 footer .ft-second-container .sd-box a:hover {
   color: var(--second-main-color);
 }
+
+
+/* ======== appointment section styling ======== */
+
+#appointment-popup{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(3px);
+  position: fixed;
+  top:0;
+z-index: 2000;
+}
+
+#appointment-popup.ap-hidden{
+  display: none;
+}
+
+#appointment-popup .ap-wrapp{
+  width: 30%;
+  height: 80%;
+  background-color:var(--background-color);
+}
