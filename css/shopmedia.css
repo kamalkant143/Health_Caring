@@ -33,10 +33,7 @@
 
 
       #product-container .search-p .input-wrapp {
-        display: flex;
-        position:absolute;
-        bottom: -8rem;
-        left: 13rem;
+        display: none;
     }
 
     #product-container .search-p .input-wrapp input{
