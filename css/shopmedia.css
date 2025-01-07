@@ -50,7 +50,7 @@
   }
 
   #product-container .p-box {
-    max-width: 450px;
+    max-width: 350px;
     width: 100%;
   }
 
@@ -79,5 +79,27 @@
 
   #product-container .all-p-wrapp {
     padding: 5rem 2rem;
+}
+
+#product-container .p-box {
+  max-width: 250px;
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 300px){
+
+  #product-container .search-p img {
+    width: 5rem;
+}
+#product-container .search-p a i {
+  font-size: 2.5rem;
+}
+
+  #product-container .input-wrap-p .input-p input {
+    width: 15rem;
+  }
+  #product-container .input-wrap-p  .input-p input {
+    padding: 0.5rem 1rem;
 }
 }
