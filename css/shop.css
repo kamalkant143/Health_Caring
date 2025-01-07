@@ -44,14 +44,16 @@
 {
   display: flex;
   width: 30%;
-  background-color: #c62300;
 }
 
-#product-container .input-p {
-  display: flex;
+#product-container .input-wrap-p{
+  display: none;
   justify-content: center;
- width: 30%;
-  /* margin: 0 auto; */
+  padding-top:5rem;
+}
+
+#product-container .input-wrap-p .input-p {
+ display: flex;
 }
 
 #product-container .search-p .input-wrapp input,
