@@ -1897,12 +1897,10 @@ body.no-scroll {
   color: var(--font-color);
   border-radius: 5rem;
  width: 45%;
- font-size: 1.5rem;
+ font-size: 1.8rem;
 }
 
-#appointment-popup .ap-wrapp .form-ap .input-ap select option{
-  margin-right: 2rem;
-}
+
 
 #appointment-popup .ap-wrapp .form-ap .input-ap textarea{
   width: 90%;
@@ -1914,4 +1912,16 @@ body.no-scroll {
   color: var(--font-color);
  font-size: 1.5rem;
  resize: none;
+}
+
+#appointment-popup .ap-wrapp .form-ap .input-ap .ap-btn-fr{
+  width: 90%;
+  border-radius: 5rem;
+  box-shadow: var(--second-main-color) 0px 3px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 8px 2px -18px inset;
+  border: none;
+  padding: 1rem 1.5rem;
+  color: var(--font-color);
+ font-size: 1.5rem;
+ font-weight: 600;
+ cursor: pointer;
 }

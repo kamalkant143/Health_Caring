@@ -5,7 +5,7 @@ const apBtn =document.querySelector(".apm-btn")
 const popUp =document.querySelector("#appointment-popup")
 const noScroll =document.querySelector("body")
 const popClose =document.querySelector(".fa-xmark")
-
+const apformBtn =document.querySelector(".ap-btn-fr")
 
 
 // +++++++ navabar scroll fixed +++++++
