@@ -1792,11 +1792,15 @@ footer .ft-second-container .sd-box a:hover {
   top: 0;
   z-index: 2000;
   transition: all 0.3s;
-  transform: translateX(0%);
+  /* transform: translateX(0%); */
+}
+
+body.no-scroll {
+  overflow: hidden;
 }
 
 #appointment-popup.ap-hidden {
-  display: none;
+  /* display: none; */
 }
 
 #appointment-popup .ap-wrapp {
@@ -1819,6 +1823,33 @@ footer .ft-second-container .sd-box a:hover {
   color: #c62300;
 }
 
-body.no-scroll {
-  overflow: hidden;
+#appointment-popup .ap-wrapp .logo {
+  text-align: center;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#appointment-popup .ap-wrapp .logo .logo-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50rem;
+  box-shadow: var(--second-main-color) 0px 5px 15px;
+  width: 8rem;
+  height: 8rem;
+  padding: 3rem;
+}
+
+#appointment-popup .ap-wrapp .logo .logo-img img{
+  width: 5rem;
+  height: 5rem;
+}
+
+#appointment-popup .ap-wrapp .logo  h2{
+  font-size: 2rem;
+  color: var(--font-color);
+  margin-top: 1.2rem;
 }
