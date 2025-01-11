@@ -1867,8 +1867,10 @@ body.no-scroll {
 }
 
 #appointment-popup .ap-wrapp .form-ap .input-ap input{
-  /* border: none; */
+  box-shadow: var(--second-main-color) 0px 3px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 8px 2px -18px inset;
+  border: none;
   padding: 1rem 1.5rem;
+  color: var(--font-color);
   border-radius: 5rem;
  width: 45%;
  font-size: 1.5rem;
