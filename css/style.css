@@ -1807,6 +1807,8 @@ body.no-scroll {
   width: 30%;
   height: 80%;
   background-color: var(--background-color);
+  border: 2px solid var(--second-main-color);
+  border-radius: 2rem;
   position: relative;
 }
 
@@ -1864,6 +1866,7 @@ body.no-scroll {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  margin-bottom: 2rem;
 }
 
 #appointment-popup .ap-wrapp .form-ap .input-ap input{
@@ -1874,6 +1877,10 @@ body.no-scroll {
   border-radius: 5rem;
  width: 45%;
  font-size: 1.5rem;
+}
+
+#appointment-popup .ap-wrapp .form-ap .input-ap input::placeholder{
+  color: var(--font-color);
 }
 
 #appointment-popup .ap-wrapp .form-ap .input-ap input:focus{
