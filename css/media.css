@@ -474,7 +474,7 @@
   }
 
   #booking-help .booking-contaner .option {
-    flex-direction: column;
+    /* flex-direction: column; */
     margin-block: 1rem;
   }
 
@@ -649,6 +649,11 @@
   #our-doctor h2 {
     font-size: 1.5rem;
   }
+
+  #booking-help .booking-contaner .option {
+    flex-direction: column;
+    margin-block: 1.5rem;
+}
 }
 
 @media screen and (max-width: 540px) {
