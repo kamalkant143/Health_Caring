@@ -782,6 +782,12 @@
   }
 }
 
+@media screen and (max-width: 450px) {
+  #appointment-popup .ap-wrapp {
+    width: 35rem;
+}
+}
+
 @media screen and (max-width: 404px) {
  
 

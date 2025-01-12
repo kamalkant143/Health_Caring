@@ -1808,8 +1808,9 @@ body.no-scroll {
 }
 
 #appointment-popup .ap-wrapp {
-  width: 30%;
-  height: 90%;
+  width: 40rem;
+  /* max-width: 1200px; */
+  height: auto;
   background-color: var(--background-color);
   border: 2px solid var(--second-main-color);
   border-radius: 2rem;
