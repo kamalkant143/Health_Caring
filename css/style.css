@@ -1800,7 +1800,7 @@ body.no-scroll {
 }
 
 #appointment-popup.ap-hidden {
-  /* display: none; */
+  display: none;
 }
 
 #appointment-popup .ap-wrapp {
@@ -1870,7 +1870,7 @@ body.no-scroll {
 }
 
 #appointment-popup .ap-wrapp .form-ap .input-ap input{
-  box-shadow: var(--second-main-color) 0px 3px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 8px 2px -18px inset;
+  box-shadow: var(--second-main-color) 0px 3px 60px -12px inset,var(--second-main-color) 0px 8px 2px -18px inset;
   border: none;
   padding: 1rem 1.5rem;
   color: var(--font-color);
