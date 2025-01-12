@@ -250,6 +250,10 @@ header .search .search-glass {
   background-color: var(--main-color);
 }
 
+#hero-section .nav-wrapper .btn.apm-btn.apm-btn-moblie{
+  display: none;
+ 
+}
 /* ====== home  styling ====== */
 
 #hero-section .main-hero-container {
@@ -1386,6 +1390,10 @@ header .search .search-glass {
   font-size: 1.5rem;
   color: var(--main-color);
   background-color: var(--background-color);
+}
+
+#booking-help .booking-contaner .option .select-wrp select:focus{
+  outline: none;
 }
 
 #booking-help .booking-contaner .option .comman1 {

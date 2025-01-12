@@ -31,7 +31,6 @@ apBtn.addEventListener("click",()=>{
  noScroll.classList.add("no-scroll")
 })
 
-
 popClose.addEventListener("click",()=>{
  popUp.classList.add("ap-hidden")
 noScroll.classList.remove("no-scroll")
