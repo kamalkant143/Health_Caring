@@ -752,10 +752,13 @@
   #hero-section .nav-wrapper .btn.apm-btn.apm-btn-moblie{
     display: initial;
     background-color:#8dd6dd;
-    padding: 1rem 2rem;
-    font-size: 1.8rem;
+    padding:0rem;
+    font-size: 2.5rem;
     transition: all 0.3s linear;
+    color: var(--font-color);
   }
+
+  
 
   #hero-section .nav-wrapper .btn.apm-btn i {
     margin-right: 0rem;
@@ -793,6 +796,10 @@
   #booking-help .help-container h2 {
     font-size: 3.5rem;
   }
+
+  #booking-help .booking-contaner {
+    padding: 4rem 2rem;
+}
 
   footer .ft-second-container .sd-box {
     flex-direction: column;
@@ -969,6 +976,10 @@
   #booking-help .help-container h2 {
     font-size: 3rem;
   }
+
+  #booking-help .booking-contaner {
+    padding: 4rem 2rem;
+}
 
   #blog .blog-container .blog-box:hover .image-wrap img {
     transform: none;
