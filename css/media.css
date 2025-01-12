@@ -609,6 +609,10 @@
     font-size: 60%;
   }
 
+  #hero-section .nav-wrapper {
+    padding: 1.8rem 3rem;
+}
+
   #about-section .about-wrapp h2 {
     font-size: 3rem;
   }
@@ -741,7 +745,7 @@
 
 @media screen and (max-width: 508px) {
   #hero-section .apm-btn {
-    display: none;
+    /* display: none; */
   }
 
   #about-section .about-wrapp h2 br {
